@@ -1,10 +1,8 @@
 ---
 author_name: "Anders Pearson"
 author_url: http://ctl.columbia.edu/about/team/pearson/
-date: 2016-05-25T12:16:55+01:00
-draft: true
-lede: "How we make Salt operations visible to our team in Slack"
-poster: filename
+date: 2016-05-25
+lede: "It's extremely helpful to know what's going on with our systems at a glance. One area where we lacked visibility and occasionally ran into conflicts were configuration management runs. We use Salt for our configuration management and orchestration, and here is how we make Salt operations visible to our team in Slack."
 tags: ["salt", "slack", "chatops"]
 title: Salt to Slack
 topics:
