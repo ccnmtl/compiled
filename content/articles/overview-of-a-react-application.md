@@ -17,6 +17,8 @@ type: post
 This post outlines some of the technologies involved in putting
 together a video juxtaposition tool for Mediathread.
 
+__Explain a little bit what Reach application is for folk who have never encountered it. A short sentence or a link__
+
 Now that I've made some progress on
 [Juxtapose](https://github.com/ccnmtl/juxtapose) I wanted to review
 some of the pieces and decisions I've made when putting this
