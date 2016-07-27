@@ -2,7 +2,6 @@
 author_name: "Zarina Mustapha"
 author_url: http://ctl.columbia.edu/about/team/mustapha/
 date: 2016-07-29
-draft: true
 lede: "This summer, we migrated two projects, MATCH and PASS, to a more open and sustainable framework. Openness and sustainability pose interesting challenges such as responsiveness and accessibility. We have committed ourselves to good faith effort in making sure that both sites perform well on all devices including assistive technologies."
 poster: poster-deconstructing-accessibility.jpg
 tags: ["accessibility", "a11y"]
