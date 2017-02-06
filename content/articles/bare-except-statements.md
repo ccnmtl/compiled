@@ -2,12 +2,12 @@
 author_name: "Nik Nyby"
 author_url: http://ctl.columbia.edu/about/team/nyby/
 date: 2017-02-03
-lede: "Bare except statements are a well-known anti-idiom in Python, and this post illustrates one example why that is."
+lede: "Bare ‘except’ statements are a well-known anti-idiom in Python, and this post illustrates one example why that is."
 poster:
 poster_source: ""
 poster_sourceurl: ""
 tags: ["python"]
-title: A reminder not to use bare except statements in Python
+title: "A reminder not to use bare ‘except’ statements in Python"
 topics:
 - Process
 type: post
