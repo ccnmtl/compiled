@@ -2,7 +2,6 @@
 author_name: "Anders Pearson"
 author_url: http://ctl.columbia.edu/about/team/pearson/
 date: 2017-05-22
-draft: true
 lede: "A few tricks for storing configuration secrets in Vault"
 poster: 
 poster_source: ""
