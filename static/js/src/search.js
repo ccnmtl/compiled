@@ -14,9 +14,6 @@ $.getJSON('/js/all.json').done(function(item) {
         index.add(d);
         data[d.url] = d;
     });
-}).fail(function(jqxhr, textStatus, error) {
-    var err = textStatus + ', ' + error;
-    console.error('Error getting Hugo index file:', err);
 });
 
 var doSearch = function() {
@@ -27,7 +24,7 @@ var doSearch = function() {
     $el.show();
     $el.append('<div class="arrow"></div>');
     $el.append(
-       $('<h2>RESULTS FOR: "' + q + '"</h2>')
+        $('<h2>RESULTS FOR: "' + q + '"</h2>')
     );
     if (results.length === 0) {
         $el.append('<div class="q-no-item">Unfortunately, there are ' +
