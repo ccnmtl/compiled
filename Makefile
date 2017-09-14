@@ -3,6 +3,7 @@ PROD_URL=https://compiled.ctl.columbia.edu/
 STAGING_BUCKET=compiled.stage.ccnmtl.columbia.edu
 PROD_BUCKET=compiled.ctl.columbia.edu
 INTERMEDIATE_STEPS ?= make $(PUBLIC)/js/all.json
+HUGO=/usr/local/bin/hugo-0.15
 
 JS_FILES=static/js/src
 
