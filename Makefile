@@ -7,7 +7,7 @@ HUGO=/usr/local/bin/hugo-0.15
 
 JS_FILES=static/js/src
 
-all: jshint jscs
+all: eslint
 
 include *.mk
 
