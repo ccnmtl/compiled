@@ -5,7 +5,7 @@ type: "post"
 author_name:  "Nik Nyby"
 author_url: "https://ctl.columbia.edu/about/team/nyby/"
 lede: "This post describes some challenges and guidelines to be aware of when integrating a Django application with Canvas."
-poster: ""
+poster: "poster-score-submission-django-canvas.jpg"
 poster_sourceurl: ""
 poster_source: ""
 topics: 
