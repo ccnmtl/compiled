@@ -1,7 +1,6 @@
 ---
 title: "Notes on score submission with django-lti-provider and Canvas LMS"
 date: "2017-12-05"
-draft:  true
 type: "post"
 author_name:  "Nik Nyby"
 author_url: "https://ctl.columbia.edu/about/team/nyby/"
