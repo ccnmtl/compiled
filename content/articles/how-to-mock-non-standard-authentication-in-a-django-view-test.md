@@ -13,7 +13,7 @@ tags: ["python", "django", "lti", "testing"]
 ---
 
 Ideally when making automated tests, you don't have to
-mock anything. You just test exactly what would be
+[mock](https://en.wikipedia.org/wiki/Mock_object) anything. You just test exactly what would be
 executed in production. Some scenarios make that a
 challenge, though.  What if you're testing a view that
 relies on an external authentication service, like an LTI
