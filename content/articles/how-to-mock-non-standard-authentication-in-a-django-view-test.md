@@ -5,8 +5,9 @@ type: "post"
 author_name:  "Nik Nyby"
 author_url: "https://ctl.columbia.edu/about/team/nyby/"
 lede: "Ideally when making automated tests, you don't have to mock anything. You just test exactly what would be executed in production. Some scenarios make that a challenge, though. What if you're testing a view that relies on an external authentication service, like an LTI server?"
-poster_sourceurl: ""
-poster_source: ""
+poster: "poster-mock-lti-auth.jpg"
+poster_sourceurl: "https://www.instagram.com/lilothehusky/"
+poster_source: "Lilo The Husky"
 topics: 
 - Research and Development
 tags: ["python", "django", "lti", "testing"]
