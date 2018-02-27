@@ -1,12 +1,11 @@
 ---
 title: "MediaWiki's Visual Editor, and text editing on the web in general"
 date: "2018-02-27"
-draft:  false
 type: "post"
 author_name:  "Nik Nyby"
 author_url: "https://ctl.columbia.edu/about/team/nyby/"
 lede: "Editing and formatting text on the web comprises of an interesting sub-field of web development. The web allows for different ways to turn text into HTML markup. First I'll outline some of the background of interactive text formatting on the web from my perspective, and then go into some configuration details of MediaWiki's Visual Editor that I found interesting."
-poster: ""
+poster: "poster-mediawikis-visual-editor.jpg"
 poster_sourceurl: ""
 poster_source: ""
 topics:
