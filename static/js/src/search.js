@@ -1,19 +1,28 @@
 /* global lunr: true, console: true */
 
-var index = lunr(function() {
-    this.field('url');
-    this.field('title', {boost: 10});
-    this.field('author', {boost: 5});
-    this.field('tags', {boost: 5});
-    this.field('content');
-});
-index.ref('url');
+var initializeLunrIndex = function(items) {
+    return lunr(function() {
+        this.ref('url');
+        this.field('url');
+        this.field('title', {boost: 10});
+        this.field('author', {boost: 5});
+        this.field('tags', {boost: 5});
+        this.field('content');
+
+        items.forEach(function(i) {
+            this.add(i);
+        }, this);
+    });
+};
+
+
 var data = {};
-$.getJSON('/js/all.json').done(function(item) {
-    item.forEach(function(d) {
-        index.add(d);
+var index = null;
+$.getJSON('/js/all.json').done(function(items) {
+    items.forEach(function(d) {
         data[d.url] = d;
     });
+    index = initializeLunrIndex(items);
 });
 
 var doSearch = function() {
