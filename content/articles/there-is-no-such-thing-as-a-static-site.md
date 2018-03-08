@@ -1,6 +1,6 @@
 ---
 author_name: "Anders Pearson"
-author_url: http://ctl.columbia.edu/about/team/pearson/
+author_url: https://thraxil.org/
 date: 2017-01-24
 lede: "The expectation that all basic webservers will behave similarly with the same static content has some limitations. Between Apache, Nginx, and S3/Cloudfront, there are plenty of opportunities to discover discrepancies around directory indexing, authentication, 404 handling, compression, and caching. Static site generators are a tool, not a silver bullet."
 poster: poster-no-such-thing-static.jpg

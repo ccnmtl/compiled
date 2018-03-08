@@ -1,6 +1,6 @@
 ---
 author_name: "Anders Pearson"
-author_url: http://ctl.columbia.edu/about/team/pearson/
+author_url: https://thraxil.org/
 date: 2016-06-10
 lede: "These are notes from a talk by Stephen Kimball about a promising new open source database. While ambitious in its priorities, it seems like CockroachDB developers have chosen a solid set of design goals and have a workable strategy for achieving them."
 poster: "poster-cockroachdb.jpg"

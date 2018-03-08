@@ -1,6 +1,6 @@
 ---
 author_name: "Anders Pearson"
-author_url: "http://ctl.columbia.edu/about/team/pearson/"
+author_url: "https://thraxil.org/"
 lede: "As an experiment, Anders has ported the ReliefSim application to Google's AppEngine and gotten it running on the free version at reliefsim.appspot.com (the source code for this application has been released on github: github.com/ccnmtl/reliefsim)"
 date: "2013-02-09"
 topics: 
@@ -10,7 +10,7 @@ title: "ReliefSim on Google App Engine"
 type: "post"
 ---
 
-As an experiment, <a href="http://ctl.columbia.edu/about/team/pearson/">Anders</a> has ported the <a href="http://ccnmtl.columbia.edu/portfolio/medicine_and_health/reliefsim.html">ReliefSim</a> application to Google's <a href="https://developers.google.com/appengine/">AppEngine</a> and gotten it running on the free version at <a href="http://reliefsim.appspot.com/">reliefsim.appspot.com</a> (the source code for this application has been released on github: <a href="https://github.com/ccnmtl/reliefsim">github.com/ccnmtl/reliefsim</a>).
+As an experiment, <a href="https://thraxil.org/">Anders</a> has ported the <a href="http://ccnmtl.columbia.edu/portfolio/medicine_and_health/reliefsim.html">ReliefSim</a> application to Google's <a href="https://developers.google.com/appengine/">AppEngine</a> and gotten it running on the free version at <a href="http://reliefsim.appspot.com/">reliefsim.appspot.com</a> (the source code for this application has been released on github: <a href="https://github.com/ccnmtl/reliefsim">github.com/ccnmtl/reliefsim</a>).
 
 <!--more-->
 

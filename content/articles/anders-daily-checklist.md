@@ -1,6 +1,6 @@
 ---
 author_name: "Anders Pearson"
-author_url: http://ctl.columbia.edu/about/team/pearson/
+author_url: https://thraxil.org/
 date: 2016-12-01
 lede: "How I use a daily checklist."
 poster: 

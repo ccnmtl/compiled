@@ -1,6 +1,6 @@
 ---
 author_name: "Anders Pearson"
-author_url: http://ctl.columbia.edu/about/team/pearson/
+author_url: https://thraxil.org/
 date: 2016-10-24
 lede: "At CTL, we've been using smoketest for several years now. It is a standard part of our stack now and has helped us prevent numerous issues from making it to production as well as simplified and sped up the identification and fixing of production environment issues."
 poster: 

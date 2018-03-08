@@ -1,6 +1,6 @@
 ---
 author_name: "Anders Pearson"
-author_url: "http://ctl.columbia.edu/about/team/pearson/"
+author_url: "https://thraxil.org/"
 date: "2010-10-25"
 topics: 
 - Sysadmin
