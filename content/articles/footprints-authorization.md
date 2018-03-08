@@ -7,7 +7,7 @@ author_name: "Susan Dreher"
 author_url: http://ctl.columbia.edu/about/team/sdreher/
 lede: "Implementing complex authorization rules for a Django-based application
 was simplified by the framework's permission & authorization classes at the
-class-level. Instance-level permissioning proved to be more complicated"
+class-level. Instance-level permissioning proved to be more complicated."
 poster: poster-footprints-authorization.jpg
 poster_source: ""
 poster_sourceurl: ""
