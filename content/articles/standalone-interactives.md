@@ -62,7 +62,7 @@ npm and Webpack do not dictate a standard package structure. [After a little res
 ```
 
 ### Makefile
-[Anders](http://ctl.columbia.edu/about/team/pearson/), a senior developer here, composed Makefiles for our Django projects. I wanted to do the same here for consistency. The pack's [Makefile](https://github.com/ccnmtl/supportservices-pack/blob/master/Makefile) can build the bundle, run the dev server and publish the project. Per our team's standards, jshint and jscs are also run.
+[Anders](https://thraxil.org/), a senior developer here, composed Makefiles for our Django projects. I wanted to do the same here for consistency. The pack's [Makefile](https://github.com/ccnmtl/supportservices-pack/blob/master/Makefile) can build the bundle, run the dev server and publish the project. Per our team's standards, jshint and jscs are also run.
 
 ### Static Data
 Many of our interactives rely on a database for static data. That data is usually fetched directly from the server and loaded into a Backbone collection. To replicate this flow, I generated a json file via Django's [dumpdata](https://docs.djangoproject.com/en/1.9/ref/django-admin/#dumpdata) method. The json file was then loaded into the Backbone collection.

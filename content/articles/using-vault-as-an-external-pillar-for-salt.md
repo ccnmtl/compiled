@@ -1,6 +1,6 @@
 ---
 author_name: "Anders Pearson"
-author_url: http://ctl.columbia.edu/about/team/pearson/
+author_url: https://thraxil.org/
 date: 2017-05-22
 lede: "A few tricks for storing configuration secrets in Vault"
 poster: 
