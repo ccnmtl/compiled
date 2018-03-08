@@ -1,7 +1,6 @@
 ---
 title: "Creating a flexible authorization system"
 date: 2018-03-08
-draft: true
 type: post
 author_name: "Susan Dreher"
 author_url: http://ctl.columbia.edu/about/team/sdreher/
