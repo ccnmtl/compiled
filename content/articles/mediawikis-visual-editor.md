@@ -1,5 +1,5 @@
 ---
-title: "MediaWiki's Visual Editor, and text editing on the web in general"
+title: "MediaWiki\u2019s Visual Editor, and text editing on the web in general"
 date: "2018-02-27"
 type: "post"
 author_name:  "Nik Nyby"
@@ -14,7 +14,7 @@ topics:
 tags: ["mediawiki"]
 ---
 
- Editing and formatting text on the web comprises of an interesting sub-field of web development. The web allows for different ways to turn text into HTML markup. First I'll outline some of the background of interactive text formatting on the web from my perspective, and then go into some configuration details of MediaWiki's Visual Editor that I found interesting.
+Editing and formatting text on the web comprises of an interesting sub-field of web development. The web allows for different ways to turn text into HTML markup. First I'll outline some of the background of interactive text formatting on the web from my perspective, and then go into some configuration details of MediaWiki's Visual Editor that I found interesting.
 
 Libraries like [MathJax](https://www.mathjax.org/) allow for LaTeX-style math syntax to be meticulously, accurately rendered with SVG. User-facing [WYSIWYG](https://en.wikipedia.org/wiki/WYSIWYG) editors like [medium-editor](https://yabwe.github.io/medium-editor/) and [markdown-toolbar](https://github.com/nikolas/markdown-toolbar#markdown-toolbar-) give users a small toolbar with a few formatting options. markdown-toolbar adheres to the [CommonMark](http://commonmark.org/) spec, allowing for the HTML transformation to happen either server-side or client-side, yielding identical results in both cases.
 
