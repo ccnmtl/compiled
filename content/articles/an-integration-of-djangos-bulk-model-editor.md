@@ -8,7 +8,7 @@ poster: ""
 poster_source: ""
 poster_sourceurl: ""
 tags: ["javascript", "django"]
-title: An integration of Django's bulk model editor
+title: An integration of Django\u2019s bulk model editor
 topics:
 - Research and Development
 type: post
