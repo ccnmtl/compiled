@@ -75,7 +75,7 @@
                 Friday Linkdumps:
             </h2>
             <ul class="nav">
-            {{ range (  where ( where .Site.Pages "Type" "post" ) "Params.secondary_type" "=" "linkdump" ) }}
+            {{ range first 10 (  where ( where .Site.Pages "Type" "post" ) "Params.secondary_type" "=" "linkdump" ) }}
                 <li><a href="{{ .Permalink }}">{{ replace .Title "Friday Linkdump for " "Week of " }}</a></li>
             {{ end }}
             </ul>
