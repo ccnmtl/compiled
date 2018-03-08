@@ -3,7 +3,7 @@ title: "Creating a flexible authorization system"
 date: 2018-03-08
 type: post
 author_name: "Susan Dreher"
-author_url: http://ctl.columbia.edu/about/team/sdreher/
+author_url: http://ctl.columbia.edu/about/team/dreher/
 lede: "Implementing complex authorization rules for a Django-based application
 was simplified by the framework's permission & authorization classes at the
 class-level. Instance-level permissioning proved to be more complicated."
@@ -85,7 +85,7 @@ does offer instance-level permissioning and needs a closer look.
 ## Outcome
 Since implemented, this authorization solution has hummed along with few
 issues. We have almost 70 creators and contributors. And, we're celebrating the
-5,000 Footprint in our system.
+5,000th Footprint in our system.
 
 ## The Project
 The [Footprints project](http://footprints.ccnmtl.columbia.edu/about/)
