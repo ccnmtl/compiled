@@ -628,6 +628,14 @@ hr.front-page {
 	width: 120px;
 }
 
+.bordered {
+    border: 1px solid #ccc;
+}
+
+.centered {
+    margin: auto;
+}
+
 /* Footer ------------------------------ */
 
 footer {
@@ -859,16 +867,40 @@ div.interactive-placeholder {
 }
 
 @media print {
+    .docs-container {
+        margin: 0;
+        padding: 0;
+    }
     .video-display {
         display: none;
     }
     .print-header {
-        margin: 0 0 1em 0;
+        margin: 0 0 2em 0;
+        padding-bottom: 1em;
+        border-bottom: 1px solid #ccc;
     }
     .entry-layout header img {
         width: 600px;
         margin: 0 auto 0 auto;
     }
+    .entry-content {
+        color: #000;
+    }
+    a[href]:after {
+        content: "";
+    }
+    .entry-content a[href]:after {
+        content: " (" attr(href) ")";
+        font-style: italic;
+        color: #999 !important;
+    }
+    .footer-url {
+        padding-top: 1em;
+	    font: 400 16px/150% 'Open Sans', sans-serif;
+    }
 }
 
+@page {
+    margin: 1in;
+}
 
