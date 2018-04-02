@@ -15,7 +15,7 @@ title: "Better Sed with Perl"
 
 Though sed has facilities to manage multi-line operations, they can be hard to understand initially. Perl can offer an easier set of tools.
 
-A few weeks ago, working on migrating a static versions of Pathology Lab and Histology Lab to a Hugo site, I had the task of swapping the position of an image and a subsequent div across 100+ Markdown files. Initially I thought that sed would be the right tool for the job an in-place edit, but I found it confusing to manage what essentially is a multi-line regex.
+A few weeks ago, working on migrating static versions of Pathology Lab and Histology Lab to Hugo sites, I had the task of swapping the position of an image and a subsequent div across 100+ Markdown files. Initially I thought that sed would be the right tool for the job an in-place edit, but I found it confusing to manage what essentially is a multi-line regex.
 
 To give some context, I generated the Markdown files using the very capable [Scrapy](https://scrapy.org/) framework. I used Scrapy’s stock html parser to fill in my front matter and simply dumped html markup in the body of each Markdown file.  I knew that I would want to leverage some of the existing class names for layout, so I didn’t want to convert everything to straight Markdown.
 
