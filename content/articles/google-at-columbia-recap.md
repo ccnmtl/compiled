@@ -18,7 +18,7 @@ In late February, I attended a Google interactive workshop, hosted by the [Emerg
 Some of the products they showcased include:
 
 ## Jamboard
-[Jamboard](https://gsuite.google.com/products/jamboard/) is an interactive whiteboard developed by Google, as part of the G Suite family. It has a 55"4k touchscreen display, and has compatibility for online collaboration through cross-platform support. The display can also be mounted onto a wall or be configured into a stand.
+[Jamboard](https://gsuite.google.com/products/jamboard/) is an interactive whiteboard developed by Google, as part of the G Suite family. It has a 55" 4k touchscreen display, and has compatibility for online collaboration through cross-platform support. The display can also be mounted onto a wall or be configured into a stand.
 
 ## Google Expeditions AR
 The [Expeditions AR](https://edu.google.com/expeditions/ar/) mode harnesses Google’s Tango Augmented Reality (AR) Platform, which uses Visual Positioning Service (VPS) technology to map indoor locations. With a Tango-compatible device, the camera utilizes VPS to recognize specific objects and landmarks. We had the opportunity to see immersive 3D models of bacteria, viruses and dinosaurs.
