@@ -1,7 +1,6 @@
 ---
 title: "Print Is a Device"
 date: "2018-04-02"
-draft:  true
 type: "post"
 author_name:  "Zarina Mustapha"
 author_url: "https://ctl.columbia.edu/about/team/mustapha/"
