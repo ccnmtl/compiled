@@ -83,7 +83,7 @@ CSS...
 ```
 
 ### Navigation:
-Site navigation, breadcrumbs, and click prompts are irrelevant on paper, and there is not need to have them be printed out. Design them in modular fashion so that they can be eliminated from the print version without breaking the overall layout of the page. This post, for example, has a print stylesheet that removes the screen-specific elements when you <a href="javascript:window.print()">print this page.</a>
+Site navigation, breadcrumbs, and click prompts are irrelevant on paper, and there is no need to print them out. Design them in modular fashion so they can be eliminated from the print version without breaking the overall layout of the page. This post, for example, has a print stylesheet that removes the screen-specific elements when you <a href="javascript:window.print()">print this page.</a>
 
 
 ### Hypertext links:
@@ -161,18 +161,18 @@ In the CSS:
 The printed version will substitute the `iframe` embed with the alternative text.
 
 ### Interactive content:
-Interactivity is another aspect of the web that can’t be transferred to paper. Pop-up modals, for example, will not be visible on the printed form. You may need to think about the “takeaway version” of the interactives, which is akin to a transactional receipt. At CTL, we created an [interactive social mapping tool](https://ssnm.ctl.columbia.edu), and thoroughly designed the complementary print version.
+Interactivity is another aspect of the web that can’t be transferred to paper. Pop-up modals, for example, will not be visible on the printed form. You may need to think about the “takeaway version” of the interaction, which is akin to a transactional receipt. At the CTL, we created an [interactive social mapping tool](https://ssnm.ctl.columbia.edu), and thoroughly designed the complementary print version.
 
 {{< figure caption="Web version of the interactive social mapping tool." src="/img/assets/print-ssnm-screen.jpg" class="text-center centered bordered responsive" alt="This is a sreenshot of the web version of the interactive social mapping tool, and it contains pop-up modals" >}}
 
 {{< figure caption="Printed copy of the interactive social mapping tool." src="/img/assets/print-ssnm-print.jpg" class="text-center centered responsive" alt="In the printed version of the tool, all pop-up modals are displayed." >}}
 
 ### Other things to consider
-Background color or image printing is a deliberate user choice for most print drivers. If the web content rely heavily on background colors to deliver meaning, this may present a problem if users choose to disable background printing. While there are CSS methods to force background printing, they are inconsistent across platforms. 
+Background color or image printing is a deliberate user choice for most print drivers. If the web content relies heavily on background colors to deliver meaning, this may present a problem if users choose to disable background printing. While there are CSS methods to force background printing, they are inconsistent across browsers and platforms. 
 
 Printed pages are not continuous, and have fixed dimensions. At times the printed version will cut off images, or other continuous content elements if they are at the end of the pager. The `page-break-after`, `page-break-before`, and `page-break-inside` can be used to define how these content elements behave when printed.
 
 And finally, the users of your website may choose to print in black and white. So, be sure to test if all your content elements, especially text, have enough contrast on paper to be acceptably readable.
 
 ## In short...
-There’s quite a bit to consider when you’re preparing your web content for print. However, if print is folded into the web development process along with its adaptive design siblings from start to finish (and let me stress how important this is), you may be able to cover most of your website’s users’ needs with quite satisfactorily.
+There’s quite a bit to consider when you’re preparing your web content for print. However, if print is folded into the web development process along with its adaptive design siblings from start to finish (and let me stress how important this is), you may be able to cover most of your website’s users’ needs quite satisfactorily.
