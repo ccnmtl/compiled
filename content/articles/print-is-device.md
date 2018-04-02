@@ -87,9 +87,9 @@ Site navigation, breadcrumbs, and click prompts are irrelevant on paper, and the
 
 
 ### Hypertext links:
-URLs of linked text should be expanded on the print version of the webpage, and this can be done in the print stylesheet with `::after` pseudo-element. The following image shows the hypertext linking “Visit the site” and “Infosheet” to other pages.
+URLs of linked text should be expanded on the print version of the webpage, and this can be done in the print stylesheet with `::after` pseudo-element. The following image shows the hypertext linking “Visit-the-site” and “Infosheet” to other pages.
 
-{{< figure caption="Screen version showing linked text" src="/img/assets/print-flg-screen.jpg" class="text-center centered bordered responsive" alt="This image shows the hypertext linking “Visit the site” and “Infosheet” to other pages or sites." >}}
+{{< figure caption="Screen version showing linked text" src="/img/assets/print-flg-screen.jpg" class="text-center centered bordered responsive" alt="This image shows the hypertext linking Visit-the-site and Infosheet to other pages or sites." >}}
 
 The HTML code for one of the links...
 
@@ -107,7 +107,7 @@ The print CSS...
 ```
 @media print {
     a::after {
-        content:":\A " attr(href) " ";
+        content:": " attr(href) " ";
         white-space: pre;
     }
     .fa {
@@ -118,7 +118,7 @@ The print CSS...
 
 And the printed result of the webpage, with URLs expanded:
 
-{{< figure caption="Print version, with URLs expanded" src="/img/assets/print-flg-print.jpg" class="text-center centered bordered responsive" alt="This image shows the expanded URLs linking “Visit the site” and “Infosheet” to other pages or sites." >}}
+{{< figure caption="Print version, with URLs expanded" src="/img/assets/print-flg-print.jpg" class="text-center centered bordered responsive" alt="This image shows the expanded URLs linking Visit-the-site and Infosheet to other pages or sites." >}}
 
 
 ### Multimedia:
