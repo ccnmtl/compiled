@@ -489,6 +489,7 @@ hr.front-page {
     margin: 2em 0 .8em 0;
     padding: 0;
     font-size: 24px;
+    page-break-after: avoid;
 }
 
 .entry-layout .entry-content h3 {
@@ -628,12 +629,18 @@ hr.front-page {
 	width: 120px;
 }
 
-.bordered {
+.bordered img {
     border: 1px solid #ccc;
 }
 
-.centered {
+.centered img {
     margin: auto;
+}
+
+.responsive img {
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 /* Footer ------------------------------ */
