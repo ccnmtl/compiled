@@ -22,7 +22,7 @@ In this post, I offer some guidance, based on my experience, because indeed prin
 
 The printed paper is a portable, static reading device. It is a component of adaptive design alongside desktop and mobile devices, and assistive technology for accessibility. Because of this, it should be given ample consideration in the web development process.
 
-What you see on the screen is not necessarily what you’ll get when you print because the printed version is not a facsimile of the webpage. The printer renders HTML, applies CSS, and then transfers ink onto the output: physical, fixed size pages of paper. Unless specified exclusively for screen use, all defined general CSS rules, even those for responsive CSS, are applied on the printed output. Therefore, you might see some unintended display on paper if the rule in the general CSS is not filtered out. The print stylesheet rules are needed to accommodate the differences between screen and print.
+What you see on the screen is not necessarily what you’ll get when you print because the printed version is not a facsimile of the webpage. The browser renders HTML, applies CSS for print mode, and then transfers everything to the printer, and onto the output: physical, fixed size pages of paper. Unless specified exclusively for screen use, all defined general CSS rules, even those for responsive CSS, are applied on the printed output. Therefore, you might see some unintended display on paper if the rule in the general CSS is not filtered out. The print stylesheet rules are needed to accommodate the differences between screen and print.
 
 {{< figure src="/img/assets/print-css.png" class="text-center centered responsive" alt="" >}}
 
@@ -43,7 +43,7 @@ You can’t print the active and dynamic nature of the internet: there is no mul
 In the web development process, consider what the users of your website will take with them when they print. The following are a few things to be aware of:
 
 ### Readability:
-For the printed pages, the conditions how the text is read are different. Black text on white background provides the maximum contrast suitable for paper, especially if a user decides to print in black and white. Light text on dark background should be avoided.
+For the printed pages, the conditions on how the text is read are different. Black text on white background provides the maximum contrast suitable for paper, especially if a user decides to print in black and white. Light text on dark background should be avoided.
 
 Keep in mind that there is no way for a user to change the font size on paper, so, make sure the text for print is large enough to be readable.
 
