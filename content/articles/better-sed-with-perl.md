@@ -2,7 +2,7 @@
 date: "2018-04-02"
 type: "post"
 author_name: "Nick Buonincontri"
-author_url: "https://github.com/nbuonin/"
+author_url: "http://ctl.columbia.edu/about/team/buonincontri/"
 lede: "Though sed has facilities to manage multi-line operations, they can be hard to understand initially. Perl can offer an easier set of tools."
 poster: "poster-sed-perl.jpg"
 poster_sourceurl: "https://www.dreamstime.com/stock-photo-red-cat-image23668960"
