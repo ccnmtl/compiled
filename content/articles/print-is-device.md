@@ -175,4 +175,4 @@ Printed pages are not continuous, and have fixed dimensions. At times the printe
 And finally, the users of your website may choose to print in black and white. So, be sure to test if all your content elements, especially text, have enough contrast on paper to be acceptably readable.
 
 ## In short...
-There’s quite a bit to consider when you’re preparing your web content for print. However, if print is folded into the web development process along with its adaptive design siblings from start to finish (and let me stress how important this is), you may be able to cover most of your website’s users’ needs quite satisfactorily.
+Print is a standalone static reading device, and there’s quite a bit to consider when you’re preparing your web content for print. However, if print is folded into the web development process along with its adaptive design siblings from start to finish (and let me stress how important this is), you may be able to cover most of your website’s users’ needs quite satisfactorily.
