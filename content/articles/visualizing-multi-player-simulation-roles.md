@@ -25,7 +25,7 @@ type: "post"
 
 <p>I understand my first contribution, as suggesting that if there were no general rules, then the only choice was to give him a <a href="http://en.wikipedia.org/wiki/Truth_table">truth table</a> of 81 rows, each listing the state of that combination for the players. Eventually, it turned out that there were 28 states (with 8 on the last turn), so poor Mark had to fill in 81*20=1620 rows.</p>
 
-<p>Impressively, Mark came through, and brought order to the possible outcomes (one of them genocide). Then <a href="http://ctl.columbia.edu/about/team/dreher/">Susan Dreher</a> wowed us all with one of her first contributions to <span class="caps">CCNMTL </span>as bringing Mark's rules into a data model and environment for the game to be played.</p>
+<p>Impressively, Mark came through, and brought order to the possible outcomes (one of them genocide). Then <a href="https://ctl.columbia.edu/about/team/dreher/">Susan Dreher</a> wowed us all with one of her first contributions to <span class="caps">CCNMTL </span>as bringing Mark's rules into a data model and environment for the game to be played.</p>
 
 <p>What were all of these rules though? We know they had been specified, but it was a gloss of 1620 rows. In the data, you can see some notes Mark makes along the margins, to keep some of it straight himself. But as outsiders, it was difficult to understand certain things. For example:<br />
 1. Game balance: how much do certain players affect the outcome from turn to turn?<br />

@@ -1,6 +1,6 @@
 ---
 author_name: "Nik Nyby"
-author_url: "http://ctl.columbia.edu/about/team/nyby/"
+author_url: "https://ctl.columbia.edu/about/team/nyby/"
 date: "2016-05-23"
 lede: "In the past few years, a web standard called Content Security Policy has come up that allows web developers to restrict how media and code can be accessed on their website depending on where the assets are being served. GitHub and Mozilla both have further explanations of CSP."
 poster: "poster-mediathread-extension.jpg"

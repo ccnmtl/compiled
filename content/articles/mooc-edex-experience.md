@@ -1,6 +1,6 @@
 ---
 author_name: "Jose Diaz"
-author_url: http://ctl.columbia.edu/about/team/diaz/
+author_url: https://ctl.columbia.edu/about/team/diaz/
 date: 2016-10-05
 lede: "The first MOOC course​ that I worked on​ was a three-part series based on the Civil War and Reconstruction​ taught by Professor Eric Foner. I've learned many valuable lessons on how to design an effective course using the edX platform. I gathered some best practices to share with others interested in creating MOOCs."
 poster: poster-mooc-experience.jpg
@@ -40,5 +40,5 @@ frequently update the document with new ideas, thoughts​,​ and tips. ​I’
 learned so much about MOOCs in the past two years and I’ve had the honor to
 work with many talented people from CTL who have taught me a great deal
 throughout this journey. I would love
-[to hear some of your thoughts](http://ctl.columbia.edu/about/team/diaz/),
+[to hear some of your thoughts](https://ctl.columbia.edu/about/team/diaz/),
 ideas and tips on how to build an effective MOOC course.

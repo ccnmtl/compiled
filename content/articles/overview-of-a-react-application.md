@@ -1,6 +1,6 @@
 ---
 author_name: Nik Nyby
-author_url: http://ctl.columbia.edu/about/team/nyby/
+author_url: https://ctl.columbia.edu/about/team/nyby/
 date: 2016-07-19
 lede: "This post outlines some of the technologies involved in putting together a video juxtaposition tool for Mediathread. The primary technology I'm focusing on is React, which is a framework for building highly interactive user interfaces on the web in JavaScript."
 poster: poster-overview-react.jpg

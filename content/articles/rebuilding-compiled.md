@@ -1,6 +1,6 @@
 ---
 author_name: "Zarina Mustapha"
-author_url: http://ctl.columbia.edu/about/team/mustapha/
+author_url: https://ctl.columbia.edu/about/team/mustapha/
 date: 2016-06-27
 lede: "We moved CompilED to Hugo, a general-purpose static site generator, to test this framework\u2019s flexibility and durability to accommodate our blog\u2019s requirements and workflow. This post outlines how we converted CompilED from Movable Type, streamlined its user experience, and optimized the site for accessibility, responsive design, and searchability."
 poster: poster-rebuilding-compiled.jpg

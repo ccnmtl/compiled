@@ -1,6 +1,6 @@
 ---
 author_name: "Zarina Mustapha"
-author_url: http://ctl.columbia.edu/about/team/mustapha/
+author_url: https://ctl.columbia.edu/about/team/mustapha/
 date: 2016-10-04T12:15:58-04:00
 lede: "In second part of a the MATCH and PASS sustainability summary, we outline the solutions and development of the migration process, from framework choices for the sites to packaging JavaScript interactives."
 poster: poster-match-pass02.jpg
@@ -103,7 +103,7 @@ to convert them into standalone and stateless interactives. Parts of the
 content required rewriting to preserve coherence of context as these
 interactives exist independently.
 
-Our developer, [Susan Dreher](http://ctl.columbia.edu/about/team/dreher/),
+Our developer, [Susan Dreher](https://ctl.columbia.edu/about/team/dreher/),
 conducted extensive research on bundling, implementing and disseminating
 JavaScript interactives for these projects. In her CompilED posts, Susan
 detailed her

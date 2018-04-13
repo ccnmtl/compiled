@@ -1,6 +1,6 @@
 ---
 author_name: "Nik Nyby"
-author_url: http://ctl.columbia.edu/about/team/nyby/
+author_url: https://ctl.columbia.edu/about/team/nyby/
 date: 2017-02-03
 lede: "When I've found it necessary to make changes to the npm libraries I'm using in React, the process isn't well-documented and I've found some guidelines through trial and error."
 poster: poster-react-branch.jpg

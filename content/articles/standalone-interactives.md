@@ -1,6 +1,6 @@
 ---
 author_name: "Susan Dreher"
-author_url: http://ctl.columbia.edu/about/team/dreher/
+author_url: https://ctl.columbia.edu/about/team/dreher/
 date: 2016-05-31
 lede: "At CTL, client-side interactives enrich many of our serial-learning web applications. These discrete JavaScript blocks challenge students with quizzes, animations, case studies, calculators and games. Many of our interactives carry enough context to stand on their own statelessly. We recently explored ways to package these interactives for wider distribution."
 poster: poster-webpack.jpg
