@@ -4,7 +4,7 @@ title: "About CompilED"
 lede: "CompilED is a collection of reflections and comments by the software developers at Columbia's Center for Teaching and Learning (CTL). These views are rooted in our professional and personal experiences developing educational technology. This blog is directed at hackers, programmers, designers, and architects of all flavors, but everyone is welcome."
 ---
 
-CompilED is a collection of reflections and comments by the [software developers](/authors/) at Columbia's [Center for Teaching and Learning](http://ctl.columbia.edu) (CTL). These views are rooted in our professional and personal experiences developing educational technology. This blog is directed at hackers, programmers, designers, and architects of all flavors, but everyone is welcome.
+CompilED is a collection of reflections and comments by the [software developers](/authors/) at Columbia's [Center for Teaching and Learning](https://ctl.columbia.edu) (CTL). These views are rooted in our professional and personal experiences developing educational technology. This blog is directed at hackers, programmers, designers, and architects of all flavors, but everyone is welcome.
 
 ---------
 
@@ -22,12 +22,12 @@ Our project teams are passionate about Columbia’s mission and maintain a playf
 
 ## The codes and blog
 
-Our [team](http://ctl.columbia.edu/about/team/#devteam), as well as most of our projects are accessible, responsive and open. You can follow our reflections on the technical aspects of the Center’s work here in [CompilED](..) and on [Github](http://github.com/ccnmtl).
+Our [team](/authors/), as well as most of our projects are accessible, responsive and open. You can follow our reflections on the technical aspects of the Center’s work here in [CompilED](..) and on [Github](http://github.com/ccnmtl).
 
-CompilED is built with [Hugo](https://gohugo.io/) and [Bootstrap](http://getbootstrap.com/) by [Zarina Mustapha](http://ctl.columbia.edu/about/team/mustapha/) and [Anders Pearson](http://ctl.columbia.edu/about/team/pearson/). The artwork for the banner is "<i>[Revisionism](https://myopica.org/oil/revisionism/)</i>" by Anders Pearson. CompilED repository is available on [Github](https://github.com/ccnmtl/compiled).
+CompilED is built with [Hugo](https://gohugo.io/) and [Bootstrap](http://getbootstrap.com/) by [Zarina Mustapha](https://ctl.columbia.edu/about/team/mustapha/) and [Anders Pearson](https://thraxil.org). The artwork for the banner is "<i>[Revisionism](https://myopica.org/oil/revisionism/)</i>" by Anders Pearson. CompilED repository is available on [Github](https://github.com/ccnmtl/compiled).
 
 Unless otherwise noted, the content on this blog is licensed under a [Creative Commons Attribution-ShareAlike 3.0 United States](http://creativecommons.org/licenses/by-sa/3.0/us/) license.
 
 ## What's the deal with the kitties?
 
-We write about educational technology and projects that are largely used on the web, that require internet access. The internet is [made of cats](https://en.wikipedia.org/wiki/Cats_and_the_Internet). It is only logical to include cats in our posts, and the [404 error page](/404.html).
+We write about educational technology and projects that are largely used on the web, that require internet access. The internet is [made of cats](https://en.wikipedia.org/wiki/Cats_and_the_Internet) as evidenced by [this video](https://www.youtube.com/watch?v=zi8VTeDHjcM); cats have pretty much [taken over the internet](https://www.youtube.com/watch?v=8ZgjNeXXTjU). It is only logical to include our feline overlords in our posts, and the [404 error page](/404.html).
