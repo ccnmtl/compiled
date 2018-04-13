@@ -1,6 +1,6 @@
 ---
 author_name: "Nik Nyby"
-author_url: http://ctl.columbia.edu/about/team/nyby/
+author_url: https://ctl.columbia.edu/about/team/nyby/
 date: 2017-02-03
 lede: "Bare except statements are a well-known anti-idiom in Python, and this post illustrates one example why that is."
 poster:

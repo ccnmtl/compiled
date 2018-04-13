@@ -1,6 +1,6 @@
 ---
 author_name: "Nik Nyby"
-author_url: http://ctl.columbia.edu/about/team/nyby/
+author_url: https://ctl.columbia.edu/about/team/nyby/
 date: 2017-03-24
 lede: "This post sketches out a process for developing activities in an ePub-style environment."
 poster: poster-sequenced-activities-javascript.jpg

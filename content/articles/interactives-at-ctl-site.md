@@ -1,6 +1,6 @@
 ---
 author_name: "Zarina Mustapha"
-author_url: http://ctl.columbia.edu/about/team/mustapha/
+author_url: https://ctl.columbia.edu/about/team/mustapha/
 date: 2016-09-09
 lede: "This summer, we revisited client-side interactives that we built for online learning web applications, and bundled them using Webpack as JavaScript packages for open and wider distribution. We are proud to announce that we now have a portfolio site to showcase about a dozen standalone interactives that we've authored."
 poster: poster-interactives-at-ctl.jpg
@@ -22,7 +22,7 @@ Here is an example of an interactive from the portfolio, embedded easily in this
 
 At CTL, we often develop JavaScript interactives for richer and active engagement in many of of our online learning applications. These interactives are implemented in our own content management tool, [Pagetree](https://github.com/ccnmtl/django-pagetree), a Django-based framework written in Python. Even though most of them can run independently, they are often used in context of the learning applications and require user authentication. Our clients often want use these activities on other platforms such as blogs, wikis, LMS, and even MOOCs.
 
-In May, CTL developer [Susan Dreher](http://ctl.columbia.edu/about/team/dreher/) began to package the interactives for MATCH and PASS, two online learning websites for pediatric dentists and pre-doctoral dental students. The bundled JavaScript activities are accessible on these sites and on Interactives@CTL.
+In May, CTL developer [Susan Dreher](https://ctl.columbia.edu/about/team/dreher/) began to package the interactives for MATCH and PASS, two online learning websites for pediatric dentists and pre-doctoral dental students. The bundled JavaScript activities are accessible on these sites and on Interactives@CTL.
 
 The following CompilED blog posts by Susan detail the research and development behind packaging and testing these standalone interactives:
 

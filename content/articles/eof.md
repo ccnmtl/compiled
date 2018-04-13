@@ -118,7 +118,7 @@ leading art, and characterized Yochai Benkler as an architectural theorist
 ([_Possibility Spaces_](http://pocketknowledge.tc.columbia.edu/home.php/viewfile/69866):
 _Architecture and the Builders of Information Societies_). I directly applied
 the ideas as described on CTL’s
-[Project Development page](http://ctl.columbia.edu/support/project-development/)
+[Project Development page](https://ctl.columbia.edu/support/project-development/)
 to educational environments, which then lead to the question: what sorts of
 values do we intend to infuse in our applications? If software is our  medium,
 and the medium is the message, what sorts of messages do our applications communicate?

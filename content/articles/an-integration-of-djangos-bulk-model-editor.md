@@ -1,6 +1,6 @@
 ---
 author_name: "Nik Nyby"
-author_url: http://ctl.columbia.edu/about/team/nyby/
+author_url: https://ctl.columbia.edu/about/team/nyby/
 date: 2017-03-31
 draft: false
 lede: "We needed bulk editing in our project management tool, and this post outlines how we've taken advantage of some of Django's built-in functionality to achieve this."
@@ -8,7 +8,7 @@ poster: ""
 poster_source: ""
 poster_sourceurl: ""
 tags: ["javascript", "django"]
-title: An integration of Django\u2019s bulk model editor
+title: "An integration of Django\u2019s bulk model editor"
 topics:
 - Research and Development
 type: post

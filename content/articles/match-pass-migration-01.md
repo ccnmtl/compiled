@@ -1,6 +1,6 @@
 ---
 author_name: "Zarina Mustapha"
-author_url: http://ctl.columbia.edu/about/team/mustapha/
+author_url: https://ctl.columbia.edu/about/team/mustapha/
 date: 2016-10-04T12:16:58-04:00
 lede: "In this first of a three-part summary, we recount the circumstances that drove the decision to migrate two dental school projects, MATCH and PASS, to an open and sustainable framework. We also listed a few questions that we must address before moving forward with the implementation."
 poster: poster-match-pass01.jpg

@@ -1,6 +1,6 @@
 ---
 author_name: "Susan Dreher"
-author_url: "http://ctl.columbia.edu/about/team/dreher/"
+author_url: "https://ctl.columbia.edu/about/team/dreher/"
 date: "2010-02-15"
 topics: 
 - Process

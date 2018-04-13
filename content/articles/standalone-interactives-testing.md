@@ -1,6 +1,6 @@
 ---
 author_name: "Susan Dreher"
-author_url: http://ctl.columbia.edu/about/team/dreher/
+author_url: https://ctl.columbia.edu/about/team/dreher/
 date: 2016-08-29
 lede: "Here at the CTL, we are passionate about delivering high quality code that adheres to community standards. Our quality control arsenal includes unit tests, code reviews, static analyzers, style checkers, and continuous integration. Our recent adoption of webpack for JavaScript interactives required a fresh approach for unit and client-side testing complexities."
 poster: poster-standalone-interactives-testing.jpg
@@ -15,7 +15,7 @@ type: post
 
 ## Background
 
-[In May](/articles/standalone-interactives/), I detailed our strategy for bundling JavaScript interactives into standard [webpacks](http://webpack.github.io/). We are now the proud authors of over [a dozen webpacks](https://github.com/search?p=1&q=org%3Accnmtl+pack&type=Repositories). The interactives embed seamlessly into our static learning modules, e.g. the [Older Adults Dresser Activity](https://pass.ctl.columbia.edu/older-adults/scenario-1/). A [gallery](https://interactives.ctl.columbia.edu/), authored by my colleague [Zarina Mustapha](http://ctl.columbia.edu/about/team/mustapha/), in set up in Hugo.
+[In May](/articles/standalone-interactives/), I detailed our strategy for bundling JavaScript interactives into standard [webpacks](http://webpack.github.io/). We are now the proud authors of over [a dozen webpacks](https://github.com/search?p=1&q=org%3Accnmtl+pack&type=Repositories). The interactives embed seamlessly into our static learning modules, e.g. the [Older Adults Dresser Activity](https://pass.ctl.columbia.edu/older-adults/scenario-1/). A [gallery](https://interactives.ctl.columbia.edu/), authored by my colleague [Zarina Mustapha](https://ctl.columbia.edu/about/team/mustapha/), in set up in Hugo.
 
 ## Test, test, test
 

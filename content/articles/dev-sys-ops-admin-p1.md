@@ -1,6 +1,6 @@
 ---
 author_name: "Nick Buonincontri"
-author_url: http://ctl.columbia.edu/about/team/buonincontri/
+author_url: https://ctl.columbia.edu/about/team/buonincontri/
 date: 2016-08-26
 poster: poster-dev-sys-ops-admin-p1.jpg
 poster_source: "Zarina Mustapha"

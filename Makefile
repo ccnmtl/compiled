@@ -11,6 +11,9 @@ all: eslint
 
 include *.mk
 
+clean:
+	rm -rf $(PUBLIC)/*
+
 $(PUBLIC)/js/all.json: $(PUBLIC)/json/all/index.html
 	mkdir $(PUBLIC)/js/ || true
 	mv $< $@ && ./checkjson.py

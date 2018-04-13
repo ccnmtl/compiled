@@ -3,7 +3,7 @@ title: "Creating a flexible authorization system"
 date: 2018-03-08
 type: post
 author_name: "Susan Dreher"
-author_url: http://ctl.columbia.edu/about/team/dreher/
+author_url: https://ctl.columbia.edu/about/team/dreher/
 lede: "Implementing complex authorization rules for a Django-based application
 was simplified by the framework's permission & authorization classes at the
 class-level. Instance-level permissioning proved to be more complicated."
