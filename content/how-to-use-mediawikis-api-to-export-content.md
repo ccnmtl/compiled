@@ -7,7 +7,6 @@ author_url: "https://ctl.columbia.edu/about/team/nyby/"
 lede: "MediaWiki's API has been around since before REST APIs were commonplace. So it's a little idiosyncratic, but still useful and flexible."
 topics:
 - Sysadmin
-- Research and Development
 tags: ["mediawiki"]
 ---
 
