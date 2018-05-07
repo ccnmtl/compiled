@@ -1,10 +1,10 @@
 ---
-title: "How to Use Mediawiki's API to Export Content"
+title: "How to Use Mediawiki\u2019s API to Export Content"
 date: 2018-05-07
 type: "post"
 author_name: "Nik Nyby"
 author_url: "https://ctl.columbia.edu/about/team/nyby/"
-lede: "MediaWiki's API has been around since before REST APIs were commonplace. So it's a little idiosyncratic, but still useful and flexible."
+lede: "MediaWiki\u2019s API has been around since before REST APIs were commonplace. So it\u2019s a little idiosyncratic, but still useful and flexible."
 poster: "poster-mediawiki-api-export.jpg"
 topics:
 - Sysadmin
