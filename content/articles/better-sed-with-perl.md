@@ -31,9 +31,9 @@ So where does Perl fit into this? First, there’s little mystery about which fl
 
 But wait, you ask, isn’t Perl a language, not some unix command? Perl has a few ways of reading in programs, one being [line-by-line](http://perldoc.perl.org/perlrun.html) on the command line using `-e`. Adding `-p` makes Perl behave like sed, looping over the input fed to it, and printing out the result. But we don’t want Perl to behave exactly like sed, or else we’re back to matching line-by-line. Perlrun has a way to set a switch to modify how Perl ["slurps in"](http://perldoc.perl.org/perlrun.html#Command-Switches) files. In this case, the convention is to `-0777` to slurp in files whole.
 
-Putting this all together, piped with in with find, looks like this:
+Putting this all together, connected to `find` with `-exec`, looks like this:
 ```
-find . -name "*.md" | perl -0777 -i.bak -pe 's/<regex>/<replacement>/<flags>'
+find . -name "*.md" -exec perl -0777 -i.bak -pe 's/<regex>/<replacement>/<flags>' {} +
 ```
 
 If all goes well, you’ll have matching backup files next to the modified files. Given that backup files are named `*.bak`, you can use find and xargs to cleanup (or find -exec if so inclined): `find . *.bak | xargs rm`
