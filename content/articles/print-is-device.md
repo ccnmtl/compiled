@@ -97,7 +97,7 @@ The HTML code for one of the links...
 <div>
     <a href="https://filmglossary.ccnmtl.columbia.edu" target="_blank">
         Visit the site
-        <i class="fa fa-external-link" aria-hidden="true"></i>
+        <i class="fas fa-external-link-alt" aria-hidden="true"></i>
     </a>
 </div>
 ```
