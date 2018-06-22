@@ -42,8 +42,8 @@ these pedagogical goals.
 We work closely with the faculty to understand the learner-centered objectives
 within the projects, and from there, we use the goals as the primary basis of
 the user stories. Based on the sets of user stories, we recommend the best
-approach to adopt. These are three of the most common approaches we proposed to
-the faculty clients:
+approach to adopt. These are three of the most common approaches we have proposed
+to the faculty clients:
 
 <ol style="list-style: none; margin: 0; padding: 0;">
 	<li style="background: url('/img/assets/icon-tool.png') no-repeat left 15px; min-height: 50px; padding: 10px 0 10px 65px;"><i>Custom web-based applications:</i></br />
