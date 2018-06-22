@@ -67,7 +67,7 @@ quite a CMS UI that can be used easily by content managers and providers.
 For the projects that fall under “static website” or “hybrid solution”, faculty
 clients work closely with us, as primary content providers, and would be editing and
 managing the content independently. Many are non-developers, and have a range
-of experience with many content management systems. Popular CMS like Drupal and
+of experience with many content management systems. Popular CMS frameworks like Drupal and
 WordPress have WYSIWYG text editing tool, a lightweight word processing tool,
 and offer ways to upload and manage media content effectively. Django admin UI
 lacks these features. We are mindful of these requirements from the content
