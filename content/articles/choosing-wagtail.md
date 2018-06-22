@@ -36,7 +36,7 @@ Our projects always begin with an educational hypothesis, one that imagines
 ways that software or digital tools can promote learner-centered objectives. We
 help faculty in supporting the tools they choose, and also explore the
 frontiers of educational technologies that engages students towards better
-scholarship. Our research can also lead us to creating novel solutions for
+scholarship. Our research can also lead us to create novel solutions for
 these pedagogical goals.
 
 We work closely with the faculty to understand the learner-centered objectives
