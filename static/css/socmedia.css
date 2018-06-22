@@ -6,7 +6,7 @@
     text-align: center;
     margin: auto;
     height: 40px;
-    width: 205px;
+    width: 240px;
 }
 
 .socmedia-share h4 {
@@ -38,8 +38,8 @@
 }
 
 .socmedia-share a {
-    padding: 5px;
+    padding: 0 10px;
     display: block;
-    margin: 0 5px;
+    margin: 0 0;
 }
 

@@ -34,11 +34,12 @@
             <div class="socmedia-share hidden-print clearfix">
                 <h4>Share<span class="sr-only"> this article on</span>:</h4>
                 <ul class="clearfix">
-                    <li><span><a rel="nofollow" class="share-window" href="http://www.facebook.com/share.php?u={{.Permalink}}&title={{.Title}}"><img src="{{ .Site.BaseURL }}img/icon-facebook.png" alt="Facebook" /></a></span></li>
-                    <li><span><a rel="nofollow" class="share-window" href="https://twitter.com/intent/tweet?text=CompilED:%20{{ .Title }}&url={{ .Permalink }}&via=ColumbiaCTL"><img src="{{ .Site.BaseURL }}img/icon-twitter.png" alt="Twitter" /></a></span></li>
-                    <li><span><a rel="nofollow" class="share-window" href="//www.reddit.com/submit?url={{ .Permalink }}"><img src="{{ .Site.BaseURL }}img/icon-reddit.png" alt="Reddit" /></a></span></li>
-                    <li><span><a rel="nofollow" class="share-window" href="https://plus.google.com/share?url={{ .Permalink }}"><img src="{{ .Site.BaseURL }}img/icon-googleplus.png" alt="Google Plus" /></a></span></li>
-                </ul>
+                    <li><span><a rel="nofollow" class="share-window" href="http://www.facebook.com/share.php?u={{.Permalink}}&title={{.Title}}"><i class="fab fa-facebook-f" aria-label="Facebook"></i></a></span></li>
+                    <li><span><a rel="nofollow" class="share-window" href="https://twitter.com/intent/tweet?text=CompilED:%20{{ .Title }}&url={{ .Permalink }}&via=ColumbiaCTL"><i class="fab fa-twitter" aria-label="Twitter"></i></a></span></li>
+                    <li><span><a rel="nofollow" class="share-window" href="https://www.linkedin.com/shareArticle?mini=true&url={{ .Permalink }}&title={{.Title}}&summary={{ if .Params.lede }}{{ .Params.lede }}{{ else }}{{ .Summary  }}{{ end }}"><i class="fab fa-linkedin-in" aria-label="LinkedIn"></i></a></span></li>
+                    <li><span><a rel="nofollow" class="share-window" href="//www.reddit.com/submit?url={{ .Permalink }}"><i class="fab fa-reddit-alien" aria-label="Reddit"></i></a></span></li>
+                    <li><span><a rel="nofollow" class="share-window" href="https://plus.google.com/share?url={{ .Permalink }}"><i class="fab fa-google-plus-g" aria-label="Google Plus"></i></a></span></li>
+               </ul>
             </div>
 
         </header>
