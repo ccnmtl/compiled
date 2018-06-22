@@ -373,7 +373,7 @@ here is an overall look of how the CMS mapped out to the website’s interface.
 
 {{< figure src="/img/assets/wagtail-portfolio.jpg" class="text-center centered responsive" alt="overall look of how the CMS mapped out to the CTL Portfolio interface" >}}
 
-We are pleased with the Wagtail CMS in this project. Some of our (additional)
+We are pleased with Wagtail CMS in this project. Some of our (additional)
 shared reasons are:
 
 * Wagtail’s flexible and extendable framework lends itself to product design.
@@ -382,7 +382,7 @@ the product website.
 * The client, who is also the content manager/editor, can work with the
 developer to design a CMS UI that fits the editor’s needs, instead of trying to
 adjust the needs into an inflexible CMS.
-* Wagtail’s framework provides ample space for the team members to be creative
+* Wagtail provides ample space for the team members to be creative
 in designing an intuitive CMS UI that works for everyone.
 
 ## Some considerations with Wagtail
