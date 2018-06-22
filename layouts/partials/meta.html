@@ -13,7 +13,7 @@
 {{ "<!-- Open Graph -->" | safeHTML }}
 <meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Site.Params.shortTitle }}: {{ .Title }}{{ end }}" />
 <meta property="og:image" content="{{ if .IsHome }}{{ .Site.BaseURL }}img/ogg-image.jpg{{ else }}{{ if.Params.poster }}{{ .Site.BaseURL }}img/assets/{{ .Params.poster }}{{ else }}{{ .Site.BaseURL }}img/ogg-image.jpg{{ end }}{{ end }}" />
-<meta property="og:type" content="blog" />
+<meta property="og:type" content="website" />
 <meta property="og:description" content="{{ if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ if .IsPage }}{{ if .Params.lede }}{{ .Params.lede }}{{ else }}{{ .Summary }}{{ end }}{{ end }}{{ end }}" />
 <meta property="og:url" content="{{ if .IsHome }}{{ .Site.BaseURL }}{{ else }}{{ .Permalink }}{{ end }}" />
 <meta property="og:site_name" content="{{ .Site.Title }}" />
