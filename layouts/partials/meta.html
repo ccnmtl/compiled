@@ -20,7 +20,7 @@
 
 {{ "<!-- Twitter -->" | safeHTML }}
 <meta name="twitter:card" content="summary" />
-<meta name="twitter:site" content="@ccnmtldev" />
+<meta name="twitter:site" content="@ctldevteam" />
 <meta name="twitter:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Site.Params.shortTitle }}: {{ .Title }}{{ end }}" />
 <meta name="twitter:description" content="{{ if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ if .IsPage }}{{ if .Params.lede }}{{ .Params.lede }}{{ else }}{{ .Summary }}{{ end }}{{ end }}{{ end }}" />
 <meta name="twitter:image" content="{{ .Site.BaseURL }}img/favicon.png" />
