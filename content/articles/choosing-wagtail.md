@@ -256,7 +256,7 @@ Github, code reviews)
 </table>
 
 Django CMS and Wagtail are the two CMS frameworks that met all of our combined
-requirements. So, we compared how each against another set of developer-centric
+requirements. So, we compared each against a set of developer-centric
 criteria:
 
 * Can the CMS __exist with other applications__ in a Django project?
@@ -265,7 +265,7 @@ __extended__?
 * How __simple__ is it to implement, and to use?
 * Is the CMS UI device agnostic (__responsive__)?
 * Can we integrate a search engine?
-* What is the extend of __support and documentation__? How active is the
+* What is the extent of __support and documentation__? How active is the
 __community__ around the CMS framework?
 * How easy is it to __learn to use__ the CMS framework?
 
@@ -291,7 +291,7 @@ __community__ around the CMS framework?
             <small>CMS UI uses Django admin code, can’t separate admin and CMS UI. More of a standalone product.</small>
             </td>
             <td>
-            <i class="fas fa-lg fa-check-circle" aria-label="yes" style="color: #0c0;"></i> <small>Non-invasive Django Wagtail app. Admin for Wagtail is separate from Django admin. Can still manage applications code in the same project without using Wagtail CMS.</small>
+            <i class="fas fa-lg fa-check-circle" aria-label="yes" style="color: #0c0;"></i> <small>Non-invasive Django Wagtail app. Admin for Wagtail is separate from Django admin. Can still manage application code in the same project without using Wagtail CMS.</small>
             </td>
         </tr>
         <tr>
@@ -313,7 +313,7 @@ __community__ around the CMS framework?
             <small>UI design is complex from start, and because it is not easily customizable, it can’t be simplified.</small>
             </td>
             <td>
-            <i class="fas fa-lg fa-check-circle" aria-label="yes" style="color: #0c0;"></i> <small>Base CMS is simple, but functional. We can shape the CMS from scratch, according to our own requirements.</small>
+            <i class="fas fa-lg fa-check-circle" aria-label="yes" style="color: #0c0;"></i> <small>Base CMS is simple, and functional. We can shape the CMS from scratch, according to our own requirements.</small>
             </td>
         </tr>
         <tr>
