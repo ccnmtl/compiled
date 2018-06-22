@@ -65,7 +65,7 @@ quite a CMS UI that can be used easily by content managers and providers.
 ## The need for a CMS
 
 For the projects that fall under “static website” or “hybrid solution”, faculty
-clients work closely with us as content providers, and would be editing and
+clients work closely with us, as primary content providers, and would be editing and
 managing the content independently. Many are non-developers, and have a range
 of experience with many content management systems. Popular CMS like Drupal and
 WordPress have WYSIWYG text editing tool, a lightweight word processing tool,
