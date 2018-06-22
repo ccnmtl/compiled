@@ -343,7 +343,7 @@ __community__ around the CMS framework?
             <b>Documentation and community</b>
             </td>
             <td colspan="2">
-            <i class="fas fa-lg fa-check-circle" aria-label="yes" style="color: #0c0;"></i> <small>Documentations, support, tutorials and community are robust for both systems.</small>
+            <i class="fas fa-lg fa-check-circle" aria-label="yes" style="color: #0c0;"></i> <small>Documentation, support, tutorials and community are robust for both systems.</small>
             </td>
         </tr>
         <tr>
