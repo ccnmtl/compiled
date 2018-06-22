@@ -86,8 +86,8 @@ and other known frameworks (static website generator [Hugo](https://gohugo.io),
 The criteria are:
 
 * How much __control__ do we have in shaping and implementing the data model,
-codes, templates, content?
-* Does the CMS allow __versioning__ of all the codes and content? Can we
+code, templates, content?
+* Does the CMS allow __versioning__ of all the code and content? Can we
 rollback?
 * Does the __UI for CMS__ have WYSIWYG editor? Can content of all types be
 managed through the web interface? Is it easy to use?
