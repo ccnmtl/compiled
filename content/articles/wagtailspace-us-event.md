@@ -1,6 +1,6 @@
 ---
 title: "Notes from Wagtail Space US"
-date: "2018-06-24"
+date: "2018-06-26"
 type: "post"
 author_name:  "Zarina Mustapha"
 author_url: "https://ctl.columbia.edu/about/team/mustapha/"
