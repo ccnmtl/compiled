@@ -18,11 +18,13 @@ tags: [wagtail, django, python]
 ---
 
 
-On June 14, 2018, I presented at the Wagtail Space US 2018 conference in
+_On June 14, 2018, I presented at the Wagtail Space USA 2018 conference in
 Philadelphia the process the DevTeam went through that led us to choosing
 Wagtail CMS as one of the tools for us to use at the Center for Teaching and
 Learning (CTL). This post is based on that talk. You can also
 [download the slide here](/docs/wagtailspace-20180614.pdf), in PDF format.
+The [summary of Wagtail Space](/articles/wagtailspace-us-event/)
+event is also posted on CompilED._
 
 We the DevTeam at the CTL continuously research and evaluate existing and new
 software for possible uses in developing educational technologies at Columbia
