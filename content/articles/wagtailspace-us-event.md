@@ -31,17 +31,17 @@ what other groups are doing with the CMS, and meet to exchange ideas and share
 experience. I presented the process the DevTeam went through that led us to
 [choosing Wagtail CMS as one of the tools](/articles/choosing-wagtail/)
 for us to use at the CTL. My talk was recorded and
-[now up onYouTube](https://www.youtube.com/watch?v=OiZScRcluCo).
+[now up on YouTube](https://www.youtube.com/watch?v=OiZScRcluCo).
 
 There were over sixty attendees from tech companies, NGOs, universities, and
 government agencies. This shows that Wagtail appeals to a wide base across
 industries. Many switched to Wagtail because they were dissatisfied with
 popular platforms like Drupal and WordPress. We seemed to share common reasons
-why Wagtail is a much move viable alternative: it is flexible, configurable,
+why Wagtail is a much more viable alternative: it is flexible, configurable,
 and has strong support in the open-source community.
 
 The presentations were by representatives from a variety of industries. The
-talks are now on YouTube, and here are my summary of each:
+talks are now on YouTube, and here are my summaries of each:
 
 * Tom Dyson, the Director at Torchbox, shared the history of Wagtail,
 delivered the state of 
