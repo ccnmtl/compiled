@@ -93,7 +93,7 @@ projects such as the
 [U.S. Press Freedom Tracker](https://pressfreedomtracker.us).
 * Python developer Michael Harrison talked about how he set up
 [Wagtail as a headless CMS](https://www.youtube.com/watch?v=HZT14u6WwdY)
-for OpenStax ar Rice University. My personal take: this is something very
+for OpenStax at Rice University. My personal take: this is something very
 awesome that I know very little about, so I let Wikipedia explain what
 [headless CMS](https://en.wikipedia.org/wiki/Headless_CMS) is.
 * What type of Wagtail learner are you? Developer Dawn Wages explained the
