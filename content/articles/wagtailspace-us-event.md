@@ -120,7 +120,7 @@ of Wagtail in my CTL project. Collaboration is possible with strangers, when
 the goal is for the good of free and open-source software.
 
 [Lightning talks](https://www.youtube.com/watch?v=uoxyBIpaXTU) given by
-multiple developers took place after the sprint. It interesting to hear how
+multiple developers took place after the sprint. It is interesting to hear how
 people are using this CMS in social activism as well, and for causes that aim
 to improve the health and wellbeing of the community.
 
