@@ -6,6 +6,7 @@ author_name: "Nik Nyby"
 author_url: "https://ctl.columbia.edu/about/team/nyby/"
 lede: "MediaWiki\u2019s API has been around since before REST APIs were commonplace. So it\u2019s a little idiosyncratic, but still useful and flexible."
 poster: "poster-mediawiki-api-export.jpg"
+socmediaimg: "socmediaimg-mediawiki-api-export.jpg"
 topics:
 - Sysadmin
 tags: ["mediawiki"]

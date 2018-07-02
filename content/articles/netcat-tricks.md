@@ -6,6 +6,7 @@ author_name: "Nick Buonincontri"
 author_url: "https://ctl.columbia.edu/about/team/buonincontri/"
 lede: "Useful things to do with Netcat."
 poster: "poster-netcat-tricks.jpg"
+socmediaimg: "socmediaimg-netcat-tricks.jpg"
 poster_sourceurl: "https://imgur.com/gallery/O00xD"
 poster_source: "Imgur"
 topics: 

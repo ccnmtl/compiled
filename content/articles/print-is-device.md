@@ -6,6 +6,7 @@ author_name:  "Zarina Mustapha"
 author_url: "https://ctl.columbia.edu/about/team/mustapha/"
 lede: "Printing web content has not fallen out of favor, and because it is very much ingrained in the culture of content consumption, we need to include the printed media in our web development process. In this post, I offer some guidance because web printing is not as straightforward as one might assume."
 poster: "poster-print-a-device.jpg"
+socmediaimg: "socmediaimg-print-a-device.jpg"
 poster_sourceurl: ""
 poster_source: ""
 topics: 

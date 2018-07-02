@@ -10,6 +10,7 @@ Columbia University. This post describes the evaluation process that led us to
 choosing Wagtail, an open source CMS written in Python on the Django framework,
 as one of the tools for us to use at the CTL."
 poster: "poster-choosing-wagtail.jpg"
+socmediaimg: "socmediaimg-choosing-wagtail.jpg"
 poster_sourceurl: ""
 poster_source: ""
 topics: 
