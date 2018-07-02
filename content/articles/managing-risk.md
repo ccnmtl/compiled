@@ -6,8 +6,8 @@ author_name:  "Susan Dreher"
 author_url: "https://ctl.columbia.edu/about/team/dreher/"
 lede: ""
 poster: "poster-managing-risk.jpg"
-poster_sourceurl: ""
-poster_source: ""
+poster_sourceurl: "http://sinkhacks.com/making-3d-printed-cat-armor/"
+poster_source: "Prepare for battle"
 topics: 
 - Events
 tags: [security]
