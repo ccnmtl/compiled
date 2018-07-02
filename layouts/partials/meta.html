@@ -19,8 +19,12 @@
 <meta property="og:site_name" content="{{ .Site.Title }}" />
 
 {{ "<!-- Twitter -->" | safeHTML }}
-<meta name="twitter:card" content="summary" />
+<meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:site" content="@ctldevteam" />
 <meta name="twitter:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Site.Params.shortTitle }}: {{ .Title }}{{ end }}" />
 <meta name="twitter:description" content="{{ if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ if .IsPage }}{{ if .Params.lede }}{{ .Params.lede }}{{ else }}{{ .Summary }}{{ end }}{{ end }}{{ end }}" />
-<meta name="twitter:image" content="{{ .Site.BaseURL }}img/favicon.png" />
+{{ if .IsHome }}
+<meta name="twitter:image" content="{{ .Site.BaseURL }}img/ogg-image.jpg" />
+{{ else }}
+<meta name="twitter:image" content="{{ if.Params.poster }}{{ .Site.BaseURL }}img/assets/{{ .Params.poster }}{{ else }}{{ .Site.BaseURL }}img/ogg-image.jpg{{ end }}" />
+{{ end }}
