@@ -14,9 +14,9 @@ topics:
 tags: [security]
 ---
 
-IT Risk management is an ever expanding area of interest throughout the software development community. Traditional [risk management](https://en.wikipedia.org/wiki/Risk_management) practices are applied to ensure organizations can withstand unfortunate events like power outages and natural disasters. Additional processes are layered on to deal with events particular to production softwqre systems, such as security vulnerabilities or severe bugs.
+IT Risk management is an ever expanding area of interest throughout the software development community. Traditional [risk management](https://en.wikipedia.org/wiki/Risk_management) practices are applied to ensure organizations can withstand unfortunate events like power outages and natural disasters. Additional processes are layered on to deal with events particular to production software systems, such as security vulnerabilities or severe bugs.
 
-In years past, a specialized security team usually did the deep thinking around these issues. The watchful eyes of an operations center monitored production system state. Developers were left to write code and not worry too much about the underlying systems and latest threats. Developers were not the people to call when something bad happened at 2am.
+In years past, a specialized security team usually did the deep thinking around these issues. The watchful eyes of an operations center monitored production systems state. Developers were left to write code and not worry too much about the underlying systems and latest threats. Developers were not the people to call when something bad happened at 2am.
 
 That division of responsibility is rapidly disappearing as system complexity, exploits and hacks increase. Software developers are recognizing that writing careful, secure code is the first-line of defense against malicious players. Developers, especially in small shops, are expected to understand the fundamentals of operations, and to take a turn at the monitoring station. Devop skills are often required to setup and navigate self-service cloud-based architectures. Developers should also have a holistic view of their systems and intimately understand the architecture.
 
