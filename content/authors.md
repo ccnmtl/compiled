@@ -18,7 +18,7 @@ lede: "CompilED is a collection of reflections and comments by the software deve
 	<div class="col-sm-6 clearfix bio-author">
 		{{< figure src="/img/authors/buonincontri.png" class="pull-left bio-photo clearfix" alt="Hugo logo" link="http://ctl.columbia.edu/about/team/buonincontri/" >}}
 		<h2>Nick Buonincontri</h2>
-		<p>Senior Technical Specialist<br />
+		<p>Programmer<br />
 		nb2413@columbia.edu<br />
 		<a href="http://ctl.columbia.edu/about/team/buonincontri/" target="_blank">Biography</a></p>
 	</div>
