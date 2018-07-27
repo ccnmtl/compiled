@@ -6,7 +6,7 @@ author_name:  "Nik Nyby"
 author_url: "https://ctl.columbia.edu/about/team/nyby/"
 lede: "You can now do even more in JavaScript than you ever could in Flash. Here's an outline on how to take advantage of some of this technology."
 poster: "poster-javascript-animation.gif"
-socmediaimg: "socmedia-javascript-animation.jpg"
+socmediaimg: "socmediaimg-javascript-animation.jpg"
 poster_sourceurl: ""
 poster_source: ""
 topics: 
