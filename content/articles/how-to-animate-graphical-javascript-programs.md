@@ -9,6 +9,7 @@ poster: "poster-javascript-animation.gif"
 socmediaimg: "socmediaimg-javascript-animation.jpg"
 poster_sourceurl: ""
 poster_source: ""
+tags: ["javascript", "react"]
 topics: 
 - Research and Development
 ---
@@ -141,8 +142,8 @@ animate() {
 
 The sun and moon move in a circular orbit created by passing in radian
 values to sine and cosine functions. I don’t know the math offhand—I
-just work through trial and error. The observerAngle and
-moonObserverPos values are being passed in from the main React
+just work through trial and error. The `observerAngle` and
+`moonObserverPos` values are being passed in from the main React
 component in main.jsx, and are controlled and incremented from there,
 in their own animate loop:
 
@@ -170,4 +171,4 @@ that's still in progress. The animation basics are in place—at the moment I
 need to fix some problems with the mouse
 interactions.
 
-{{< figure caption="Lunar Phase Simulator still in progress" src="/img/assets/lunar-phase-simulator.png" class="text-center centered bordered responsive" alt="Lunar phase simulator screeshot" >}}
+{{< figure caption="Screenshot of Lunar Phase Simulator; it is still in progress" src="/img/assets/lunar-phase-simulator.png" class="text-center centered bordered responsive" alt="Lunar phase simulator screeshot" >}}
