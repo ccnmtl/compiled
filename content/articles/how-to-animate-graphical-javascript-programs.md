@@ -62,7 +62,7 @@ browser decide what this value should be with
 ```
 var time = 0;
 
-function moveSomethingOnTheScreen(time) {
+function moveSomethingOnTheScreen() {
     // move a DOM element or something
 
     time += 0.01;
@@ -134,7 +134,7 @@ animate() {
     this.moon.rotation.y = -this.props.moonObserverPos + THREE.Math.degToRad(90);
 
     this.renderScene();
-    this.frameId = window.requestAnimationFrame(this.animate);
+    this.frameId = requestAnimationFrame(this.animate);
 }
 ```
 <small>From [lunar-phase-simulator/HorizonView.jsx](https://github.com/ccnmtl/astro-interactives/blob/master/lunar-phase-simulator/src/HorizonView.jsx)</small>
