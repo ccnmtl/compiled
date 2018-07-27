@@ -59,7 +59,7 @@ browser decide what this value should be with [requestAnimationFrame()](https://
 ```
 var time = 0;
 
-function moveSomethingOnTheScreen(time) {
+function moveSomethingOnTheScreen() {
     // move a DOM element or something
 
     time += 0.01;
