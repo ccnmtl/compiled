@@ -17,11 +17,11 @@ topics:
 You can now do even more in JavaScript than you ever could in
 Flash. Google and the [V8 team](https://en.wikipedia.org/wiki/Chrome_V8)
 developed new technology that pressured all mainstream browsers to make JavaScript
-as efficient as it can be. The performance improvements, which are about
+as efficient as it can be. The performance improvements, which are something like
 100 times the speed of old JavaScript engines from pre-2008, have led to
-the development of new rendering standards such as
+the development of new rendering standards like
 [WebGL](https://www.khronos.org/webgl/) and [Canvas](https://www.w3.org/TR/2dcontext/).
-It’s now even typical for example, graphics [demos](https://en.wikipedia.org/wiki/Demoscene)
+It’s now even typical for say, graphics [demos](https://en.wikipedia.org/wiki/Demoscene)
 on [Pouet](http://www.pouet.net/) to be made in three.js alongside all the
 contributions for c64 and Amiga that have been made for years. These events
 helped prompt my own decision to just focus on web development rather than
@@ -77,7 +77,7 @@ requestAnimationFrame(moveSomethingOnTheScreen);
 If you want to stop the animation, setInterval and
 requestAnimationFrame both return an ID that you can call
 `clearInterval()` or `cancelAnimationFrame()` on. Even when you’re using
-comprehensive drawing frameworks such as [three.js](https://threejs.org/) or
+comprehensive drawing frameworks like [three.js](https://threejs.org/) or
 [Pixi.js](http://www.pixijs.com/), handling
 the animation step with `requestAnimationFrame()` is still the norm.
 
