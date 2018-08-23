@@ -74,10 +74,10 @@ but it's usable. It might be possible to improve the dragging behavior
 with more code.
 
 This method was pointed out by zcorpan on StackOverflow:
-https://stackoverflow.com/a/51988783/173630, I've just adapted it for
+[stackoverflow.com/a/51988783/173630](https://stackoverflow.com/a/51988783/173630), I've just adapted it for
 my use case.
 
 If you're using React, this global savedValue variable can be handled
 by state/props, and connected to the input's value. See the
 RangeStepInput React component here for the details:
-https://github.com/ccnmtl/astro-interactives/blob/master/small-angle-demo/src/RangeStepInput.jsx
+[small-angle-demo/src/RangeStepInput.jsx](https://github.com/ccnmtl/astro-interactives/blob/master/small-angle-demo/src/RangeStepInput.jsx)
