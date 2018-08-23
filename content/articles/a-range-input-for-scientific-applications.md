@@ -80,4 +80,4 @@ my use case.
 If you're using React, this global savedValue variable can be handled
 by state/props, and connected to the input's value. See the
 RangeStepInput React component here for the details:
-https://github.com/ccnmtl/astro-interactives/pull/57/files
+https://github.com/ccnmtl/astro-interactives/blob/master/small-angle-demo/src/RangeStepInput.jsx
