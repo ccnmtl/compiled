@@ -1,23 +1,25 @@
 ---
 title: "A Range Input for Scientific Applications"
-date: 2018-08-23T12:28:28-04:00
+date: 2018-08-23
 type: "post"
 author_name: "Nik Nyby"
 author_url: "https://ctl.columbia.edu/about/team/nyby/"
-lede: "This post describes how to change the behavior of an <input type=range>
+lede: "This post describes how to change the behavior of an \u003Cinput type=range\u003E
 to something that may be more appropriate for certain scientific applications."
+poster: "poster-range-input-js.jpg"
+socmediaimg: "socmediaimg-range-input-js.jpg"
 topics: 
 - Research and Development
 tags: ["html", "javascript"]
 ---
 
-Here's a range input. Notice how it jumps immediately to the position you click.
+Here's a range input. Notice how it jumps immediately to the position you click:
 
-<input type="range"
+<div class="alert alert-info"><input type="range"
     step="1"
     min="0"
     max="100"
-    value="25" />
+    value="25" /></div>
 
 ```
 <input type="range"
@@ -35,7 +37,7 @@ down.
 You can make the click event behave in the same way by filtering the
 input's oninput event, like this:
 
-<input type="range"
+<div class="alert alert-info"><input type="range"
     step="1"
     min="0"
     max="100"
@@ -43,7 +45,7 @@ input's oninput event, like this:
     onmousedown="onMouseDown()"
     onmouseup="onMouseUp()"
     onmousemove="onMouseMove()"
-    oninput="onInput(this)" />
+    oninput="onInput(this)" /></div>
 
 ```
 <input type="range"
