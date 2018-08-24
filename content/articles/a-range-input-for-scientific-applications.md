@@ -83,7 +83,7 @@ function onInput(input) {
     var newVal = new Number(input.value);
     var oldVal = savedValue;
     if (
-        // Disable the oninput filter with the user is dragging
+        // Disable the oninput filter when the user is dragging
         // the slider's knob.
         !(isMouseDown && isDragging) &&
             oldVal
