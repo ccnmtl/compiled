@@ -40,7 +40,10 @@ input's oninput event, like this:
     min="0"
     max="100"
     value="25"
-    oninput="handleRangeInput(this)" />
+    onmousedown="onMouseDown()"
+    onmouseup="onMouseUp()"
+    onmousemove="onMouseMove()"
+    oninput="onInput(this)" />
 
 ```
 <input type="range"
@@ -48,18 +51,41 @@ input's oninput event, like this:
     min="0"
     max="100"
     value="25"
-    oninput="handleRangeInput(this)" />
+    onmousedown="onMouseDown()"
+    onmouseup="onMouseUp()"
+    onmousemove="onMouseMove()"    
+    oninput="onInput(this)" />
 ```
 
 <script src="/js/src/handleRangeInput.js"></script>
 ```
 var savedValue = 25;
+var isMouseDown = false;
+var isDragging = false;
 
-function handleRangeInput(input) {
+function onMouseDown() {
+    isMouseDown = true;
+}
+function onMouseUp() {
+    isMouseDown = false;
+    isDragging = false;
+}
+function onMouseMove() {
+    if (isMouseDown) {
+        isDragging = true;
+    }
+}
+
+function onInput(input) {
     var step = new Number(input.step);
     var newVal = new Number(input.value);
     var oldVal = savedValue;
-    if (oldVal) {
+    if (
+        // Disable the oninput filter with the user is dragging
+        // the slider's knob.
+        !(isMouseDown && isDragging) &&
+            oldVal
+    ) {
         input.value = (newVal > oldVal) ?
             oldVal + step : oldVal - step;
     }
@@ -68,16 +94,11 @@ function handleRangeInput(input) {
 }
 ```
 
-Notice that clicking right and left of the knob always steps the value
-by the same increment now. Dragging the knob doesn't behave perfectly,
-but it's usable. It might be possible to improve the dragging behavior
-with more code.
-
 This method was pointed out by zcorpan on StackOverflow:
 [stackoverflow.com/a/51988783/173630](https://stackoverflow.com/a/51988783/173630), I've just adapted it for
 my use case.
 
-If you're using React, this global savedValue variable can be handled
-by state/props, and connected to the input's value. See the
-RangeStepInput React component here for the details:
+If you're using React, the global variables can be handled by state
+and props. See the RangeStepInput React component here for the
+details:
 [small-angle-demo/src/RangeStepInput.jsx](https://github.com/ccnmtl/astro-interactives/blob/master/small-angle-demo/src/RangeStepInput.jsx)
