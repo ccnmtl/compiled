@@ -15,7 +15,7 @@ tags: ["html", "javascript"]
 
 Here's a range input. Notice how it jumps immediately to the position you click:
 
-<div class="alert alert-info"><input type="range"
+<div class="alert"><input type="range"
     step="1"
     min="0"
     max="100"
@@ -37,7 +37,7 @@ down.
 You can make the click event behave in the same way by filtering the
 input's oninput event, like this:
 
-<div class="alert alert-info"><input type="range"
+<div class="alert"><input type="range"
     step="1"
     min="0"
     max="100"
