@@ -8,7 +8,7 @@ lede: "This post describes how to change the behavior of an \u003Cinput type=ran
 to something that may be more appropriate for certain scientific applications."
 poster: "poster-range-input-js.jpg"
 socmediaimg: "socmediaimg-range-input-js.jpg"
-topics: 
+topics:
 - Research and Development
 tags: ["html", "javascript"]
 ---
@@ -55,7 +55,7 @@ input's oninput event, like this:
     value="25"
     onmousedown="onMouseDown()"
     onmouseup="onMouseUp()"
-    onmousemove="onMouseMove()"    
+    onmousemove="onMouseMove()"
     oninput="onInput(this)" />
 ```
 
@@ -99,6 +99,11 @@ function onInput(input) {
 This method was pointed out by zcorpan on StackOverflow:
 [stackoverflow.com/a/51988783/173630](https://stackoverflow.com/a/51988783/173630), I've just adapted it for
 my use case.
+
+The `onInput()` function is the key method that limits the input. I
+added the mousedown, mouseup, and mousemove handlers later to track
+the dragging state. That makes the slider behave normally if you drag
+the knob.
 
 If you're using React, the global variables can be handled by state
 and props. See the RangeStepInput React component here for the
