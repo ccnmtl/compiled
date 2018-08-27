@@ -137,7 +137,7 @@ Kino has to make two separate requests to accomplish one action: first
 set the workflow, then submit the video. This opens it up to race
 condition bugs in a concurrent environment if one isn&#8217;t very careful. </p>
 
-<p>The Kino interface has a few more adminstrative features, but the only
+<p>The Kino interface has a few more administrative features, but the only
 functions we really needed were to get a list of the PCP workflows
 that are available, listed by their title and UUID, and to submit a
 video to one of those workflows. This is the functionality that

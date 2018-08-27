@@ -285,7 +285,7 @@ have higher bandwidth requirements though. </p>
 to mount EBS volumes. EBS costs $0.10 per GB per month. So, for a
 Small EC2 instance with 160GB disk, that&#8217;s $16/month. (EBS also
 charges you $0.10 per million I/O requests, but that&#8217;s going to be
-pretty negligable). Also, if we don&#8217;t actually need the full 160GB, we
+pretty negligible). Also, if we don&#8217;t actually need the full 160GB, we
 can make it smaller and pay proportionally less.</p>
 
 <p>Static IP addresses are also extra but are priced so that they&#8217;re

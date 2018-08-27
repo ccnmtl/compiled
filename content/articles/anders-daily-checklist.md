@@ -163,7 +163,7 @@ They may be tasks that carried over from the previous day, or new things that ha
 I may get through some, all, or none of them during the course of the day, but I have at least started with a fairly reasonable, condensed list of the most important things to tackle.
 
 On non-workdays, I often run through an abbreviated version of the checklist, up through item #6.
-Again, since I'm not offically on-call, I'm under no obligation to do that, but if I'm at the computer anyway, I don't mind spending a couple minutes basically just checking that nothing is on fire.
+Again, since I'm not officially on-call, I'm under no obligation to do that, but if I'm at the computer anyway, I don't mind spending a couple minutes basically just checking that nothing is on fire.
 I also find that it's easier to build and maintain a habit if I do it every single day.
 
 That's my current checklist.

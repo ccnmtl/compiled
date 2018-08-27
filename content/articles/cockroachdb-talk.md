@@ -194,7 +194,7 @@ Raft. Afterwards, the nodes clean up the data and remove the intents.
 When reading, if it doesn't encounter an intent, it can continue
 without risk. If it encounters an intent, it must check the
 transaction record for the status. If the transaction is marked as
-comitted, it just means that the intent hasn't been cleaned up yet and
+committed, it just means that the intent hasn't been cleaned up yet and
 again, it may continue safely. If the transaction is still marked as
 pending, it can simply read the previous version of the data (thus,
 snapshot isolation).

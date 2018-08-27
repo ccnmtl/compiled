@@ -9,7 +9,7 @@ title: "Video Goes Native (SFW)"
 type: "post"
 ---
 
-<p>There is alot of buzz right now around the latest version of Firefox which  finally implemented the native <code>&lt;video&gt;</code> tag specified in <a href="http://en.wikipedia.org/wiki/HTML_5">html5</a> .</p>
+<p>There is a lot of buzz right now around the latest version of Firefox which  finally implemented the native <code>&lt;video&gt;</code> tag specified in <a href="http://en.wikipedia.org/wiki/HTML_5">html5</a> .</p>
 
 <!--more-->
 
@@ -17,7 +17,7 @@ type: "post"
 
 <p>The introduction of the <code>&lt;video&gt;</code> tag is a pretty big deal. Up until now, to display video in a browser, you needed to use third party plugins embedded in object tags. This allowed for the video to be seen in the browser, but the video wasn't really part of the web page - it was trapped inside a box.</p>
 
-<p>Suddenly, all sorts of really amazing things can happen - all the tools and operations that browsers preform on elements of a page can now be applied to video. Video can be dynamically modified using javascript and css, filters and transformations can be applied, canvas and svg can be combined with video, etc etc.  When I saw this in action it made me realize how much I had assumed and taken for granted about the constraints around web video.</p>
+<p>Suddenly, all sorts of really amazing things can happen - all the tools and operations that browsers perform on elements of a page can now be applied to video. Video can be dynamically modified using javascript and css, filters and transformations can be applied, canvas and svg can be combined with video, etc etc.  When I saw this in action it made me realize how much I had assumed and taken for granted about the constraints around web video.</p>
 
 <p>But don't take my word for it - check out some of these early demos:</p>
 

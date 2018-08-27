@@ -2,7 +2,7 @@
 author_name: "Jonah Bossewitch"
 author_url: "http://alchemicalmusings.org/about/"
 date: "2014-07-23"
-lede: "This summer Graham Sack, a doctoral student in the English department is teaching an introductory course in Digital Humanities called ''Computational Methods for Literary and Cultural Criticism''. Together with CCNMTL, Graham developed a cutting edge approach, using a web-based programming environment called IPython Notebook, to teach programing to novices."
+lede: "This summer Graham Sack, a doctoral student in the English department is teaching an introductory course in Digital Humanities called ''Computational Methods for Literary and Cultural Criticism''. Together with CCNMTL, Graham developed a cutting edge approach, using a web-based programming environment called IPython Notebook, to teach programming to novices."
 poster: "book-computer.jpg"
 topics: 
 - Projects
@@ -11,7 +11,7 @@ title: "Teaching Digital Humanities on A Laptop"
 type: "post"
 ---
 
-This summer Graham Sack, a doctoral student in the English department is teaching an [introductory course](http://www.columbia.edu/cu/bulletin/uwb/subj/ENGL/S3024-20142-001/) in Digital Humanities called ''Computational Methods for Literary and Cultural Criticism''. Graham came to CCNMTL inquiring about the usage of a cutting edge approach to teaching programing to novices, a web-based programming environment called [IPython Notebook](http://ipython.org/notebook.html)
+This summer Graham Sack, a doctoral student in the English department is teaching an [introductory course](http://www.columbia.edu/cu/bulletin/uwb/subj/ENGL/S3024-20142-001/) in Digital Humanities called ''Computational Methods for Literary and Cultural Criticism''. Graham came to CCNMTL inquiring about the usage of a cutting edge approach to teaching programming to novices, a web-based programming environment called [IPython Notebook](http://ipython.org/notebook.html)
 
 <img alt="" src="/img/assets/467px-DH_Computational_Methods.jpg" class="pull-right" style="width: 200px;" /> IPython Notebook is a tool that runs in your browser and allows for the full execution of any Python program that can run on the underlying server. Similar to a wave of new web-based educational programming environments, such as [Code Academy](http://www.codecademy.com) and specialized tools that run within MOOC  platforms like Coursera and EdX, IPython Notebook allows users to author and execute programs through their browser without requiring them to interact with the file system, text editors, and command lines. IPython Notebook also allows for the creation of annotations and commentary so that the code can be interspersed with blocks of formatted text. It can also be configured to display mathematical equations, rich media and charts inline, so that the results of numerical computations can be displayed visually, directly in the browser. All of these elements can be combined in a single, portable document that can be shared and modified by anyone running IPython Notebook. This is a gallery of some [interesting notebooks](https://github.com/ipython/ipython/wiki/A-gallery-of-interesting-IPython-Notebooks#introductory-tutorials) and a video of the notebook in action:
 
