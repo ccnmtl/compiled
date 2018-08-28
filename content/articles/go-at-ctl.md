@@ -205,7 +205,7 @@ Some weaknesses:
   near the completeness and maturity of Django. There are some ORMs
   available, but none have really gained traction.
 
-Some percieved weaknesses that I've found to not be an issue in practice:
+Some perceived weaknesses that I've found to not be an issue in practice:
 
 * No generics. Any online discussion of Go quickly ends up
   here. Programmers coming from Java, C++, or C# see that Go doesn't
@@ -323,7 +323,7 @@ code ended up [here](https://github.com/thraxil/windsock).
 This time, I was really impressed with Go. I was making heavy use of
 the concurrency features and found them very powerful. I deployed the
 broker and websockets server to our production Django servers to back
-a simple chat application. They used negligable memory and CPU, were
+a simple chat application. They used negligible memory and CPU, were
 deployable via Salt as two static binaries, and I was always impressed
 to load the application every few months and find that they were still
 just silently running, despite all the other churn on the servers.

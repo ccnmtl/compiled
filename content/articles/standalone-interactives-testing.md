@@ -193,7 +193,7 @@ is a path to explore. But, I had really, really spent enough time on this... Her
 
 ```
 function waitFor(testFx, doneFx, millis) {
-    var timeout = millis ? millis : 3000; // Default Max Timout is 3s
+    var timeout = millis ? millis : 3000; // Default Max Timeout is 3s
     var start = new Date().getTime();
 
     var interval = setInterval(function() {

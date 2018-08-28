@@ -123,7 +123,7 @@ betting that our activities are going to be simple enough that we can
 continue in this fashion, but I'm also keeping in mind that this is a
 job that would be handled really well by a UI tool
 like [React](https://facebook.github.io/react/). I don't think it's
-worth it at this point, since using React adds a noticable amount of
+worth it at this point, since using React adds a noticeable amount of
 overhead through maintenance and deployment strategies.
 
 And here's the code for another activity. I've started to work out the

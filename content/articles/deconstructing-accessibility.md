@@ -81,6 +81,6 @@ The reordering of the page elements is not the only update we introduced to impr
 
 And finally, these elements, with the new structure intact, are placed back in the original UI design using new CSS definitions and Bootstrap framework for responsiveness. This is the wireframe of the interface with the aforementioned screen reader paths.
 
-{{< figure src="/img/assets/match-flow-a11y.gif" class="text-center" alt="A simplified wireframe to encapsulate the page layout and the new arragement of elements." >}}
+{{< figure src="/img/assets/match-flow-a11y.gif" class="text-center" alt="A simplified wireframe to encapsulate the page layout and the new arrangement of elements." >}}
 
 While the Hugo- and Pagetree-MATCH wireframes "look" the same, the source codes are quite different as the result of the overhaul to make the pages responsive and more accessible.
