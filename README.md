@@ -12,7 +12,7 @@ CompilED is built with [Hugo](https://gohugo.io/) and [Bootstrap](http://getboot
 
 Unless otherwise noted, the content on this blog is licensed under a [Creative Commons Attribution-ShareAlike 3.0 United States](http://creativecommons.org/licenses/by-sa/3.0/us/) license.
 
-How CompilED was built in Hugo: https://compiled.ctl.columbia.edu/articles/rebuilding-compiled/
+How CompilED was built in Hugo:  https://compiled.ctl.columbia.edu/articles/rebuilding-compiled/
 
 ## Article contribution guideline
 
