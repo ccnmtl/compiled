@@ -224,7 +224,7 @@ user permission levels. Test, verify, and so on.
 The search feature is not just about the engines looking for things in the
 database. Search begins with the user’s intention, and it revolves around the
 user’s expectations in searching. The search experience should be intuitive,
-and informative. I hope he questions here can serve as a starting guide to a 
+as well as informative. I hope he questions here can serve as a starting guide to a 
 better search design.
 
 So, what does the “Green Notebook Quest” look like in context of search
