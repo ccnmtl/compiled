@@ -5,7 +5,7 @@ type: "post"
 author_name:  "Zarina Mustapha"
 author_url: "https://ctl.columbia.edu/about/team/mustapha/"
 lede: "Search functionality requires a thoughtful deliberation so that the
-model, UI, and UX can best serve the users’s needs. This post lists some useful
+model, UI, and UX can best serve the users’ needs. This post lists some useful
 guiding questions for that feature."
 poster: "poster-searching-1.jpg"
 socmediaimg: "socmediaimg-searching-1.jpg"
@@ -75,7 +75,7 @@ was looking for can initially be broken down as follows:
 `type: notebook`  
 `color: green`
 
-And as it turned out, there were more than one green notebook.
+And as it turned out, there was more than one green notebook.
 
 <div class="row">
 <div class="col-sm-3">
@@ -97,8 +97,8 @@ for, or title, (“Math”), and tags (“cat sticker”):
 </div>
 <div class="col-sm-8">
 <code>
-type: notebook<br />
-color: green<br />
+type: "notebook"<br />
+color: "green"<br />
 title: "English Comp"<br />
 tag: <br />
 size: "large"<br />
@@ -116,10 +116,10 @@ aria-hidden="false"></i></p>
 </div>
 <div class="col-sm-8">
 <code>
-type: notebook<br />
-color: green<br />
+type: "notebook"<br />
+color: "green"<br />
 title: "Math"<br />
-tag: cat<br />
+tag: "cat"<br />
 size: "small"<br />
 width: 7in<br />
 height: 11in
@@ -128,7 +128,7 @@ height: 11in
 </div>
 
 From this example, we see that it is helpful to understand the definition of
-the object the is searching for, in any given application, so that we can model
+the object the user is searching for, in any given application, so that we can model
 the object better and design intuitive UI and UX for that search.
 
 ### What does the user need search functionality for? ###
@@ -143,17 +143,17 @@ should do, anticipate user search patters, and shape the expected UX around it.
 ### How is search being done? ###
 When we have user stories and requirements written on the search feature, we
 can now think about how to implement them. What search engines will we use?
-ComplilED, for example, uses [lunr.js](https://lunrjs.com) because this blog is
-a Hugo-generated static site with small dataset, and we decided that full-text
+CompilED, for example, uses [lunr.js](https://lunrjs.com) because this blog is
+a Hugo-generated static site with a small dataset, and we decided that full-text
 search is good enough. For the mapping project
 _[Writ Large](https://writlarge.ctl.columbia.edu/map/)_,
-a Django project with a manageable size of data set, we use Django PostgreSQL
+a Django project with a manageable size of dataset, we use Django PostgreSQL
 search tools. We decided to go with
 [Solr](http://lucene.apache.org/solr/) for
 [Footprints](https://footprints.ccnmtl.columbia.edu/search/) because there are
 thousands of records to go through, using much more robust faceted search.
 
-However, considerations for search doesn’t simply stop with the technology.
+However, considerations for search don’t simply stop with the technology.
 Let’s go back to the “Green Notebook Quest.” The search was a two-step process.
 Initially I did a simple search, then I filtered the results with certain
 parameters.
@@ -190,7 +190,7 @@ elegant search interface that appeals more to the user’s intuition? We did the
 latter for [Footprints](https://footprints.ccnmtl.columbia.edu/search/) search.
 
 ### Where is the user searching? ###
-The may be instances where we set limits to user searches (search only
+There may be instances where we set limits to user searches (search only
 published or public records if user is not an admin, for example). What fields
 or attributes are being exposed to the user search? The users may want to set
 their own limits to the search as well. The latter case can also be thought as
@@ -200,26 +200,32 @@ example, were “shelves by the cabinet in my room”
 Why is this important? As always, for UI, and UX.
 
 ### Who can see what the user is looking for? ###
-Sometimes, we show to hide certain search results based on user permissions.
-Only editors will see unpublished articles, for example. This type of decisions
+Sometimes, we want to hide certain search results based on user roles.
+Only editors will see unpublished articles, for example. This type of decision
 needs to be included in testing so we can be certain that a zero match is
-indeed and intended match.
+indeed an intended match.
 
 ### How can the user see what the user looking for? ###
 We ask this question so we can design the search result page. Should the
 results page be separate? For
 [Footprints](https://footprints.ccnmtl.columbia.edu/search/), we decided to
 show all records at first, and then show only records that match the search
-queries. This blog’s simple search displays mathing posts in a pop-up panel. In
+queries. This blog’s simple search displays matching posts in a pop-up panel. In
 _[Writ Large](https://writlarge.ctl.columbia.edu/map/)_, all pins that don’t
 match the search criteria are dimmed instead of hidden.
 
-### The result from the user’s search, does it match what the user is looking
-for? ###
+### The result from the user’s search, does it match what the user is looking for? ###
 The search implementation is incomplete without this verification, and we do
 this through testing. Write a test. We set up a search against a known set of
 data. We test using different search parameters. We test it against different
 user permission levels. Test, verify, and so on.
+
+### To summarize... ###
+The search feature is not just about the engines looking for things in the
+database. Search begins with the user’s intention, and it revolves around the
+user’s expectations in searching. The search experience should be intuitive,
+and informative. I hope he questions here can serve as a starting guide to a 
+better search design.
 
 So, what does the “Green Notebook Quest” look like in context of search
 functionality?
