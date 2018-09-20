@@ -195,12 +195,13 @@ begins the search with a keyword, and the after the initial step, the user can
 narrow the results with a set of filters.
 
 ### Where is the user searching? ###
-There may be instances where we set limits to user searches (search only
-published or public records if user is not an admin, for example). What fields
-or attributes are being exposed to the user search? The users may want to set
+There may be instances where we set limits to user searches, for example, 
+search only published or public records if user is not an admin. What fields
+or attributes are being exposed to the search? Users may want to set
 their own limits to the search as well. The latter case can also be thought as
-a facet of the search. The areas of search in “Green Notebook Quest,” for
-example, were “shelves by the cabinet in my room”
+a facet of the search. The areas of search in “The Green Notebook Quest,” for
+example, were “shelves by the cabinet in my room,” and my mother and I were
+allowed to look for all objects on the shelves.
 
 Why is this important? As always, for UI, and UX.
 
@@ -210,20 +211,29 @@ Only editors will see unpublished articles, for example. This type of decision
 needs to be included in testing so we can be certain that a zero match is
 indeed an intended match.
 
+In “The Green Notebook Quest,” my mother and I had the same access to the books
+on the shelves. We both should be able to find the notebook. Yet, I didn’t find
+it, but my mother did. So, what gives?
+
 ### How can the user see what the user looking for? ###
 We ask this question so we can design the search result page. Should the
 results page be separate? For
 [Footprints](https://footprints.ccnmtl.columbia.edu/search/), we decided to
-show all records at first, and then show only records that match the search
-queries. This blog’s simple search displays matching posts in a pop-up panel. In
-_[Writ Large](https://writlarge.ctl.columbia.edu/map/)_, all pins that don’t
-match the search criteria are dimmed instead of hidden.
+show all records at first, and then show only those that match the search
+queries. This blog’s simple search displays resulting posts in a pop-up panel. In
+_[Writ Large](https://writlarge.ctl.columbia.edu/map/)_, all location pins that
+don’t meet the search criteria are dimmed on the map instead of hidden.
 
 ### The result from the user’s search, does it match what the user is looking for? ###
 The search implementation is incomplete without this verification, and we do
 this through testing. Write a test. We set up a search against a known set of
 data. We test using different search parameters. We test it against different
 user permission levels. Test, verify, and so on.
+
+When I couldn’t find the notebook in “The Green Notebook Quest,” my mother
+stepped in to verify my results. Mom-test yielded a different result (she found
+the book), and a feedback was given to me directly
+(don't find things with your nose).
 
 ### To summarize... ###
 The search feature is not just about the engines looking for things in the
@@ -232,7 +242,7 @@ user’s expectations in searching. The search experience should be intuitive,
 as well as informative. I hope the questions here can serve as a starting guide to a 
 better search design.
 
-So, what does the “Green Notebook Quest” look like in context of search
+So, what does the “The Green Notebook Quest” look like in context of search
 functionality?
 
 The model for anything on the shelf in my room is defined by `type  `, `color`,
@@ -262,7 +272,7 @@ Filter by:
 ------------------------------
 Areas of search: shelf1 by cabinet, shelf2 by cabinet
 ------------------------------
-Test & verify: Momtest
+Test & verify: Mom-test
 Exception thrown: "Don't find things with your nose"
 ```
 
