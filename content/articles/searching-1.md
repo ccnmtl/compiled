@@ -21,8 +21,8 @@ immediate answer in the form of a question is, “What are you considering for
 searching?”
 
 Let me tell you a story, an amalgamation of true stories while growing up.
-Let’s call the story “Green Notebook Quest.” I was a young kid, in a hurry to
-go to school (almost always), and I couldn’t find my school notebook (almost
+Let’s call the story “The Green Notebook Quest.” I was a young kid, in a hurry
+to go to school (almost always), and I couldn’t find my school notebook (almost
 always).  And the exchange between me and my mother went something like this
 (almost always):
 
@@ -39,7 +39,7 @@ for my Math homework.
 __Mom:__ There are two shelves. Check the other shelf!  
 __Me:__ (_flipped through books on the other shelf_) I am, and I still can’t
 find it!  
-__Mom:__ (_walks into my room_) Did you look everywhere on the shelf?  
+__Mom:__ (_walked into my room_) Did you look everywhere on the shelf?  
 __Me:__ Yes!  
 __Mom:__ (_reached for a green notebook with cat sticker, on the shelf_) Is
 this the notebook?  
@@ -48,29 +48,30 @@ It wasn’t there a minute ago!
 __Mom:__ (_held it up to my face_) That’s because you’ve been looking for it
 with your nose.
 
-We all know this story, we’ve experienced this at least a few times in our
+We all know this story. We’ve experienced this at least a few times in our
 lives, and it is to show that many Moms (or Dads) are the best search and
 analytics engine. So why am I telling you this story?
 
-Search functionality can be complex, and search UI can be complicated. To help
-design and develop the search feature, we need user stories and diagrams, and
-to lead us to these deliverables, we should ask a few guiding questions. Let’s
-consider that universal story again to help us deconstruct and reassemble our
-approach to search functionality.
+Search functionality can be complex, and search UI and UX can be complicated.
+To help design and develop the search feature, we need user stories and
+diagrams, and to lead us to these deliverables, we should ask a few guiding
+questions. Let’s consider that universal story again to help us deconstruct
+and reassemble our approach to search functionality.
 
 ### Who am I: Who is the user? ###
 The persona of the user will guide us in deciding what the
 [principle of least astonishment is](https://en.wikipedia.org/wiki/Principle_of_least_astonishment)
-for the sets of users, and inform us how we should design the UI for the search
-functionality. What can we assume about their experience with web searching?
-What is the basis of our assumptions? What devices do they use? Will, or should
-search be available on all devices? Knowing the user will lead us to __what__,
-__where__, and __how__ they would want to search for things.
+for the sets of users, and inform us how we should design the UI and UX for
+the search functionality. What can we assume about their experience with web
+searching? What is the basis of our assumptions? What devices do they use?
+Will, or should search be available on all devices? Knowing the persona will
+lead us to __what__, __where__, and __how__ the users would want to search for
+things.
 
 ### What is the user searching for? ###
 To put simply, the user is searching for an object. But what attributes define
 the object? Are there relationships with other objects? Are these relationships
-relevant to the search? In the “Green Notebook Quest” story, the object that I
+relevant to the search? In “The Green Notebook Quest” story, the object that I
 was looking for can initially be broken down as follows:  
 `type: notebook`  
 `color: green`
@@ -87,7 +88,7 @@ And as it turned out, there was more than one green notebook.
 </div>
 
 But then, in the midst of frustration, I expanded my query to include other
-attributes, such as the object’s dimensions (“smaller”), what it’s being used
+attributes, such as the object’s size (“smaller”), what it’s being used
 for, or title, (“Math”), and tags (“cat sticker”): 
 
 <div class="row">
@@ -99,7 +100,7 @@ for, or title, (“Math”), and tags (“cat sticker”):
 <code>
 type: "notebook"<br />
 color: "green"<br />
-title: "English Comp"<br />
+usage: "English Comp"<br />
 tag: <br />
 size: "large"<br />
 width: 9in<br />
@@ -118,7 +119,7 @@ aria-hidden="false"></i></p>
 <code>
 type: "notebook"<br />
 color: "green"<br />
-title: "Math"<br />
+usage: "Math"<br />
 tag: "cat"<br />
 size: "small"<br />
 width: 7in<br />
@@ -138,23 +139,23 @@ overall experience of the site? How does it add to, or impede the user’s
 learning experience? Is the search functionality a solution to poor information
 architecture, or a way to address a complex site model? Do we need to track the
 search patterns? This set of questions can provide insights on what the search
-should do, anticipate user search patters, and shape the expected UX around it.
+should do, anticipate user search patterns, and shape the expected UX around it.
 
 ### How is search being done? ###
 When we have user stories and requirements written on the search feature, we
 can now think about how to implement them. What search engines will we use?
-CompilED, for example, uses [lunr.js](https://lunrjs.com) because this blog is
+This blog—CompilED—for example, uses [lunr.js](https://lunrjs.com) because it is
 a Hugo-generated static site with a small dataset, and we decided that full-text
 search is good enough. For the mapping project
-_[Writ Large](https://writlarge.ctl.columbia.edu/map/)_,
-a Django project with a manageable size of dataset, we use Django PostgreSQL
-search tools. We decided to go with
-[Solr](http://lucene.apache.org/solr/) for
-[Footprints](https://footprints.ccnmtl.columbia.edu/search/) because there are
-thousands of records to go through, using much more robust faceted search.
+_[Writ Large](https://writlarge.ctl.columbia.edu/map/)_
+—a Django project with a manageable size of dataset—we use Django PostgreSQL
+search tools that came with the framework. For another Django project,
+[Footprints](https://footprints.ccnmtl.columbia.edu/search/),
+we decided to go with [Solr](http://lucene.apache.org/solr/) because there are
+thousands of records to go through an we wanted a much more robust faceted search.
 
-However, considerations for search don’t simply stop with the technology.
-Let’s go back to the “Green Notebook Quest.” The search was a two-step process.
+However, considerations for search don’t simply stop with the technology choice.
+Let’s go back to “The Green Notebook Quest.” The search was a two-step process.
 Initially I did a simple search, then I filtered the results with certain
 parameters.
 
@@ -164,10 +165,10 @@ Initial query "green notebook"
 Filter by:
     size: "small"
     tag: "cat"
-    use: "math"
+    usage: "math"
 ```
 
-But wait, the initial query can still be broken down to a two-step process:
+But wait, the initial query can be broken down further to a two-step process:
 
 ```
 Initial query:
@@ -179,15 +180,19 @@ Initial query:
 Filter by:
     size: "small"
     tag: "cat"
-    use: "math"
+    usage: "math"
 ```
 
-So now, we have to decide how to design the UI and UX around this simple search
+So now, we have to decide how to design the UI and UX around this search
 pattern. Can we assume that the user has a certain knowledge of superuser
 searches so we can condense everything into one search field, i.e.
-`type:notebook AND color:green AND size:"small"` etc? Or should we design an
-elegant search interface that appeals more to the user’s intuition? We did the
-latter for [Footprints](https://footprints.ccnmtl.columbia.edu/search/) search.
+`type:notebook AND color:green AND size:small` etc? Or should we design an
+elegant search interface that appeals more to the user’s intuition?
+
+We did the latter for
+[Footprints](https://footprints.ccnmtl.columbia.edu/search/) search. The user
+begins the search with a keyword, and the after the initial step, the user can
+narrow the results with a set of filters.
 
 ### Where is the user searching? ###
 There may be instances where we set limits to user searches (search only
@@ -237,7 +242,7 @@ The users are:
 ```
 user1: "Mom"
         permission: "Admin", "User"
-user1: "Me"
+user2: "Me"
         permission: "User"
 
 ```
@@ -253,7 +258,7 @@ Initial query:
 Filter by:
     size: "small"
     tag: "cat"
-    use: "math"
+    usage: "math"
 ------------------------------
 Areas of search: shelf1 by cabinet, shelf2 by cabinet
 ------------------------------
