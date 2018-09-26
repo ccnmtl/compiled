@@ -49,13 +49,11 @@ location. Reverse geocoding or address lookup provides a description of a given
 latitude and longitude.
 
 For example:  
-`116th St & Broadway, New York, NY 10027, United States` geocodes to `40.8075° N, 73.9626° W`.
-
+`116th St & Broadway, New York, NY 10027, United States` geocodes to `40.8075° N, 73.9626° W`.  
 `40.8075° N, 73.9626° W` reverse geocodes to 
 `116th St & Broadway, New York, NY 10027, United States`
 
-
-## What's the location?
+## What’s the location?
 Obtaining geocodes through geocoding a _modern_ set of _well-formed_ addresses
 is usually straightforward. A batch process can call the Google API for each
 address then stash the results.
@@ -89,7 +87,7 @@ operation.
 
 {{< figure src="/img/assets/writlargelocation.png"
 class="text-center grey-border responsive"
-alt="This is a screenshot of the location selection interface at the Writ Large website." >}}
+alt="This is a screenshot of the location selection interface at the Writ Large NYC website." >}}
 
 The reverse geocoding operation returns an array of addresses, with a
 [type field](https://developers.google.com/maps/documentation/javascript/geocoding#GeocodingAddressTypes)
@@ -98,7 +96,7 @@ individual address result is an array of components,
 again with a [type field](https://developers.google.com/maps/documentation/javascript/geocoding#GeocodingAddressTypes)
 describing the component.
 
-Here's an example of a reverse geocode result for our office at Lewisohn Hall
+Here’s an example of a reverse geocode result for our office at Lewisohn Hall
 at Columbia University. This is the list of addresses, highlighting the
 third address of *street_address* type.
 
@@ -127,7 +125,6 @@ Array(11)
 ...
 ```
 
-
 Usually the results make sense, but look out
 for inconsistencies as you pick and choose your address components. In
 _[Writ Large NYC](https://writlarge.ccnmtl.columbia.edu)_, I simply use the
@@ -144,21 +141,22 @@ Once the *things* you want to display are geocoded, the fun begins. Here’s a
 quick look at each of the display and feature choices we made for our most
 recent mapping applications.
 
+----------------
 ### [Virtual Forest Initiative](https://blackrock.ccnmtl.columbia.edu)
 * Satellite.
 * Clickable icons with popup info windows.
 * KML overlays with points of interest.
-* "Search Nearby" feature that takes advantage of the
+* “Search Nearby” feature that takes advantage of the
 [GeoDjango](https://docs.djangoproject.com/en/2.1/ref/contrib/gis/tutorial/)
 backend
 [distance lookups](https://docs.djangoproject.com/en/2.1/ref/contrib/gis/db-api/#distance-lookups).
-
 
 {{< figure
 src="/img/assets/blackrockmap.png"
 class="text-center grey-border responsive"
 alt="This is a screenshot of the Virtual Forest Initiative interactive map." >}}
 
+----------------
 ### [Footprints](https://footprints.ccnmtl.columbia.edu) ([GitHubrepo](https://github.com/ccnmtl/footprints/))
 * Roadmap.
 * Clickable icons with popup info windows.
@@ -169,22 +167,23 @@ situations where many data points where at the same latitude and longitude.
 class="text-center grey-border responsive"
 alt="This is a screenshot of the Footprints interactive map." >}}
 
+----------------
 ### _[Writ Large NYC](https://writlarge.ccnmtl.columbia.edu)_ 
 * Styled map using [Snazzy Maps](https://snazzymaps.com/style/151/ultra-light-with-labels).
-* Map overlays from [New York Public Library's Map Warper tool](http://maps.nypl.org/warper/).
+* Map overlays from [New York Public Library’s Map Warper tool](http://maps.nypl.org/warper/).
 * Clickable icons with overlay info windows.
 * Custom icons.
 
 {{< figure
 src="/img/assets/writlargemap.png"
 class="text-center grey-border responsive"
-alt="This is a screenshot of the Writ Large interactive map." >}}
+alt="This is a screenshot of the Writ Large NYC interactive map." >}}
 
 ## Big Ideas
-We're continuing to iterate on our mapping applications and have some big ideas
+We are continuing to iterate on our mapping applications and have some big ideas
 on where to go next. One big idea that we haven’t realized yet for both
-Footprints and _Writ Large_ is the ability to “play” our locations
-over time. Something like what [TimeMapper](http://timemapper.okfnlabs.org/)
+Footprints and _Writ Large NYC_ is the ability to “play” our locations
+over time. It is something like what [TimeMapper](http://timemapper.okfnlabs.org/)
 does but with a greater focus on the map rather than the accompanying details.
 
 ## Code
