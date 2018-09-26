@@ -5,19 +5,36 @@ type: "post"
 author_name: "Nick Buonincontri"
 author_url: "https://ctl.columbia.edu/about/team/buonincontri/"
 lede: "How to protect arbitrary Django model instances"
-poster: "foo"
-socmediaimg: "foo"
-poster_sourceurl: "foo"
+poster: "poster-protect-django-model.jpg"
+socmediaimg: "socmediaimg-protect-django-model.jpg"
+poster_sourceurl: "https://imgur.com/1hXmJjc"
+poster_source: "LizzyLemonade on Imgur"
 topics: 
 - Sysadmin 
-tags: ["Django"]
+tags: ["django"]
 ---
 
-Recently, I had a task where I needed to create a 'Category' model for a user, such that a default option would always be present. Users could create, edit, and delete any other instance of this 'Category' model, except for deleting the default option (users still could edit the default). Django [field types](https://docs.djangoproject.com/en/2.1/ref/models/fields/#field-options) and [field options](https://docs.djangoproject.com/en/2.1/ref/models/fields/#field-options) give developers a great degree of control, but I couldn't quite assemble what I needed from stock options. Rather, I found that I needed a three step approach: write a migration to ensure the default option is present, register a `pre_delete` signal on the Category model to raise an exception, and catch the exception on the admin interface.
+Recently, I had a task where I needed to create a ‘Category’ model for a user,
+such that a default option would always be present. Users could create, edit,
+and delete any other instance of this ‘Category’ model, except for deleting the
+default option (users still could edit the default). Django
+[field types](https://docs.djangoproject.com/en/2.1/ref/models/fields/#field-types)
+and [field options](https://docs.djangoproject.com/en/2.1/ref/models/fields/#field-options)
+give developers a great degree of control, but I couldn’t quite assemble what
+I needed from stock options. Rather, I found that I needed a three step
+approach: write a migration to ensure the default option is present, register a
+`pre_delete` signal on the ‘Category’ model to raise an exception, and catch the
+exception on the admin interface.
 
 ## Migration
 
-The data model for the feature in quesiton consists of 'Graph' which has a 'Category'. In this case, my migration had to do two things, prepare the 'Category' model, and modify the foreign relationship on Graph to set a default value and a delete invariant. Preparing the 'Category' model required some cleanup. I first deleted all existing instances from the database, and created my default value at pk 1, [like so](https://github.com/ccnmtl/econplayground/pull/476/files#diff-f97811a0318af6abb2a8c4db87dac249):
+The data model for the feature in quesiton consists of ‘Graph’ which has a
+‘Category’. In this case, my migration had to do two things, prepare the
+‘Category’ model, and modify the foreign relationship on Graph’ to set a default
+value and an “on_delete” option. Preparing the ‘Category’ model required some
+cleanup. I first deleted all existing instances from the database, and created
+my default value at `pk` 1,
+[like so](https://github.com/ccnmtl/econplayground/pull/476/files#diff-f97811a0318af6abb2a8c4db87dac249):
 ```
 from django.db import migrations
 
@@ -39,13 +56,23 @@ class Migration(migrations.Migration):
         migrations.RunPython(create_general_topic),
     ]
 ```
-This is all pretty standard, straight from Django's docs. You can't import models directly into a migration, rather you access them via the `apps` object passed in.
+This is all pretty standard, straight from Django’s docs. You can’t import
+models directly into a migration, rather you access them via the `apps` object
+passed in.
 
 ## `pre_delete` Signal
 
-Django models have a number of signals, which are really just a manifestation of an Observer design pattern. A programmer can register function(s) to be called at various stages of a Django model's lifetime. In this case, I wanted my function to check that the 'General' topic wasn't being deleted. In general though, there's much a developer could do at this point. Django's docs explain how to use [signals](https://docs.djangoproject.com/en/2.1/topics/signals/), and explain which signals are [available](https://docs.djangoproject.com/en/2.1/ref/signals/#).
+Django models have a number of signals, which are a manifestation
+of an Observer design pattern. A programmer can register function(s) to be
+called at various stages of a Django model’s lifetime. In this case, I wanted
+my function to check that the ‘General’ topic wasn’t being deleted. In the general
+case, there’s much a developer could do at this point. Django’s docs explain
+how to use [signals](https://docs.djangoproject.com/en/2.1/topics/signals/),
+and explain which signals are
+[available](https://docs.djangoproject.com/en/2.1/ref/signals/#).
 
-Django offers a handy decorator to register methods to signals. In particular, I was interested in was checking that the instance being deleted wasn't pk 1:
+Django offers a handy decorator to register methods to signals. In particular,
+I was interested in checking that the instance being deleted wasn’t `pk` 1:
 ```
 @receiver(pre_delete, sender=Topic)
 def default_topic_handler(sender, instance, **kwargs):
@@ -55,9 +82,13 @@ def default_topic_handler(sender, instance, **kwargs):
 
 ## Admin Interface
 
-If I try to delete the 'General' category, it will raise a `ProtectedError`. Great, except that if the exception is left unhandled it will percolate up, and return a 500 error to the user.  This is not what we want.
+If I try to delete the ‘General’ category, it will raise a `ProtectedError`.
+Great, except that if the exception is left unhandled it will percolate up, and
+return a 500 error to the user.  This is not what we want.
 
-We have to override three methods of the ModelAdmin class to ensure that we catch the exception and handle it appropriately. Specifically `delete_view`, `response_action`, `has_delete_permission`:
+We have to override three methods of the ModelAdmin class to ensure that we
+catch the exception and handle it appropriately. Specifically `delete_view`,
+`response_action`, `has_delete_permission`:
 ```
 class TopicAdmin(OrderedModelAdmin):
     list_display = ('name', 'move_up_down_links')
@@ -95,7 +126,11 @@ class TopicAdmin(OrderedModelAdmin):
                 not obj or obj.id is not 1
             )
 ```
+The above does two main things. The `delete_view` and `response_action` handle
+the exception if the user takes some action on the admin interface. The last
+method override, `has_delete_permission` is used to show/hide the delete button
+on the admin interface. In this case, its used to hide the delete button when
+viewing the default model that we’d like to preserve.
 
-The above does two main things. The `delete_view` and `response_action` handle the exception if the user takes some action on the admin interface. The last method override, `has_delete_permission` is used to show/hide the delete button on the admin interface. In this case, its used to hide the delete botton when viewing the default model that we'd like to preserve.
-
-For the full context, you can see the pull request [here](https://github.com/ccnmtl/econplayground/pull/476/files).
+For the full context, you can see the pull request
+[on Github](https://github.com/ccnmtl/econplayground/pull/476/files).
