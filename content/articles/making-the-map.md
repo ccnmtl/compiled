@@ -49,12 +49,13 @@ location. Reverse geocoding or address lookup provides a description of a given
 latitude and longitude.
 
 For example:  
-`116th St & Broadway, New York, NY 10027, United States` geocodes to `40.8075° N, 73.9626° W`.  
+`116th St & Broadway, New York, NY 10027, United States` geocodes to `40.8075° N, 73.9626° W`.
+
 `40.8075° N, 73.9626° W` reverse geocodes to 
 `116th St & Broadway, New York, NY 10027, United States`
 
 
-## “OK” or “ZERO_RESULTS”
+## What's the location?
 Obtaining geocodes through geocoding a _modern_ set of _well-formed_ addresses
 is usually straightforward. A batch process can call the Google API for each
 address then stash the results.
@@ -90,18 +91,53 @@ operation.
 class="text-center grey-border responsive"
 alt="This is a screenshot of the location selection interface at the Writ Large website." >}}
 
-The reverse geocoding operation returns an array of
-[address components](https://developers.google.com/maps/documentation/javascript/geocoding#GeocodingAddressTypes).
+The reverse geocoding operation returns an array of addresses, with a
+[type field](https://developers.google.com/maps/documentation/javascript/geocoding#GeocodingAddressTypes)
+indicating the precision. Precision ranges from `street_address` to `country`. An
+individual address result is an array of components,
+again with a [type field](https://developers.google.com/maps/documentation/javascript/geocoding#GeocodingAddressTypes)
+describing the component.
+
+Here's an example of a reverse geocode result for our office at Lewisohn Hall
+at Columbia University. This is the list of addresses, highlighting the
+third address of *street_address* type.
+
+```
+Array(11)
+1: ...
+2: ...
+3:
+    types: ["street_address"]
+    formatted_address: "2976 Broadway, New York, NY 10027, USA"
+    address_components: Array[8]
+        0:
+            long_name: "2976"
+            short_name: "2976"
+            types: ["street_number"]
+        1: {long_name: "Broadway", short_name: "Broadway", ...}
+        2: {long_name: "Manhattan", short_name: "Manhattan", ...}
+        3:
+            long_name: "New York"
+            short_name: "New York"
+            types: (2) ["locality", "political"]
+        4: {long_name: "New York County", short_name: "New York County", ...}
+        5: {long_name: "New York", short_name: "NY", ...}
+        6: {long_name: "United States", short_name: "US", ...}
+        7: {long_name: "10027", short_name: "10027", types: ...}
+...
+```
+
+
 Usually the results make sense, but look out
 for inconsistencies as you pick and choose your address components. In
-_[Writ Large NYC](https://writlarge.ccnmtl.columbia.edu)_, I simply use the full address
-result directly. For [Footprints](https://footprints.ccnmtl.columbia.edu),
-determining the type or components that equal city and country took a little
-work. I’ve ended up pulling out the `locality` and `country` from the full
-address components manually for display purposes, as my first choice the
-`locality` type did not always exist. But, this can get a little wonky too. If
-you drop a pin near Oxford, England, you might end up with England, United
-Kingdom. I should probably revisit that behavior.
+_[Writ Large NYC](https://writlarge.ccnmtl.columbia.edu)_, I simply use the
+`street address` result type directly. For [Footprints](https://footprints.ccnmtl.columbia.edu),
+determining the components that equal city and country took a little
+work. I ended up pulling out the `locality` and `country` components
+from the `street address` type for display. My first choice, the
+`locality` type did not always exist. But, this can get a little wonky
+too. If you drop a pin near Oxford, England, you might end up with England,
+United Kingdom. I should probably revisit that behavior.
 
 ## Display and Interaction
 Once the *things* you want to display are geocoded, the fun begins. Here’s a
@@ -147,7 +183,7 @@ alt="This is a screenshot of the Writ Large interactive map." >}}
 ## Big Ideas
 We're continuing to iterate on our mapping applications and have some big ideas
 on where to go next. One big idea that we haven’t realized yet for both
-Footprints and _Writ Large_. We’d like to add the ability to “play” our locations
+Footprints and _Writ Large_ is the ability to “play” our locations
 over time. Something like what [TimeMapper](http://timemapper.okfnlabs.org/)
 does but with a greater focus on the map rather than the accompanying details.
 
