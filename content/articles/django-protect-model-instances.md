@@ -30,7 +30,7 @@ exception on the admin interface.
 
 The data model for the feature in quesiton consists of ‘Graph’ which has a
 ‘Category’. In this case, my migration had to do two things, prepare the
-‘Category’ model, and modify the foreign relationship on Graph’ to set a default
+‘Category’ model, and modify the foreign relationship on ‘Graph’ to set a default
 value and an “on_delete” option. Preparing the ‘Category’ model required some
 cleanup. I first deleted all existing instances from the database, and created
 my default value at `pk` 1,
