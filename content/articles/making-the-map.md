@@ -1,6 +1,6 @@
 ---
 title: "Making the Map"
-date: "2018-09-25"
+date: "2018-09-26"
 type: "post"
 author_name: "Susan Dreher"
 author_url: "https://ctl.columbia.edu/about/team/dreher/"
