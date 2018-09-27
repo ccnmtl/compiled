@@ -11,7 +11,7 @@ poster_sourceurl: ""
 poster_source: ""
 topics: 
 - Research and Development
-tags: ["javascript", "react"]
+tags: ["javascript", "react", "pixijs"]
 ---
 
 Over the past few months that I've been working with graphical
