@@ -6,7 +6,6 @@ author_name:  "Nik Nyby"
 author_url: "https://ctl.columbia.edu/about/team/nyby/"
 lede: "This post goes over how to simulate the motion of an analog clock programmatically."
 poster: "poster-how-to-make-an-analog-clock-part-1.png"
-socmediaimg: "filename"
 poster_sourceurl: ""
 poster_source: ""
 topics: 
