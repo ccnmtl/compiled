@@ -161,3 +161,5 @@ In the mean time, you can see the final result of this clock in the
 all the fine-tunings correct. But I hope this is helpful for anyone
 else making a graphical analog clock, or just as a re-usable React
 component.
+
+NYU ITP has a collection of resources for making digital clocks [here](https://github.com/ITPNYU/clock-club).
