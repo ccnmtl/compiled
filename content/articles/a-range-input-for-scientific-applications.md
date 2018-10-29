@@ -108,4 +108,4 @@ the knob.
 If you're using React, the global variables can be handled by state
 and props. See the RangeStepInput React component here for the
 details:
-[small-angle-demo/src/RangeStepInput.jsx](https://github.com/ccnmtl/astro-interactives/blob/master/small-angle-demo/src/RangeStepInput.jsx)
+[small-angle-demo/src/RangeStepInput.jsx](https://github.com/ccnmtl/astro-simulations/blob/master/small-angle-demo/src/RangeStepInput.jsx)
