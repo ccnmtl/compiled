@@ -16,5 +16,6 @@ How CompilED was built in Hugo: https://compiled.ctl.columbia.edu/articles/rebui
 
 ## Article contribution guideline
 
+
 Guideline is for staff at the moment, available on [CTL internal wiki](http://wiki.ccnmtl.columbia.edu/index.php/CompilED_article_contribution_guidelines).
 

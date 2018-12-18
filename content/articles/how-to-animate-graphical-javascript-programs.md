@@ -107,7 +107,7 @@ Pixi.js.
 
 I’ve been working on porting these [astronomy visualizations](http://astro.unl.edu/animationsLinks.html)
 originally developed at the University of Nebraska from Flash
-to JavaScript ([astro-interactives](https://github.com/ccnmtl/astro-interactives)).
+to JavaScript ([astro-simulations](https://github.com/ccnmtl/astro-simulations)).
 All this new web technology is
 well-suited for these kinds of things. I’m using [React](https://reactjs.org/)
 because from what I’ve seen, the code just becomes simpler and more reliable when
@@ -138,7 +138,7 @@ animate() {
     this.frameId = requestAnimationFrame(this.animate);
 }
 ```
-<small>From [lunar-phase-simulator/HorizonView.jsx](https://github.com/ccnmtl/astro-interactives/blob/master/lunar-phase-simulator/src/HorizonView.jsx)</small>
+<small>From [lunar-phase-simulator/HorizonView.jsx](https://github.com/ccnmtl/astro-simulations/blob/master/lunar-phase-simulator/src/HorizonView.jsx)</small>
 
 The sun and moon move in a circular orbit created by passing in radian
 values to sine and cosine functions. I don’t know the math offhand—I
@@ -159,14 +159,14 @@ animate() {
     this.frameId = requestAnimationFrame(this.animate);
 }
 ```
-<small>From [lunar-phase-simulator/main.jsx](https://github.com/ccnmtl/astro-interactives/blob/master/lunar-phase-simulator/src/main.jsx)</small>
+<small>From [lunar-phase-simulator/main.jsx](https://github.com/ccnmtl/astro-simulations/blob/master/lunar-phase-simulator/src/main.jsx)</small>
 
 So, through methodical organization and trial and error, you can build
 these pieces up to make any sort of visualization as a function of a few
 pieces of core data, tied together in sync.
 
 Here's my
-[Lunar Phase Simulator](https://ccnmtl.github.io/astro-interactives/lunar-phase-simulator/)
+[Lunar Phase Simulator](https://ccnmtl.github.io/astro-simulations/lunar-phase-simulator/)
 that's still in progress. The animation basics are in place—at the moment I
 need to fix some problems with the mouse
 interactions.
