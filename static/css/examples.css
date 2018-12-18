@@ -1,0 +1,85 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+body {
+	font: 400 16px/150% 'Open Sans', sans-serif;
+    background-color: #fff;
+    color: #000;
+}
+
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 26px;
+    line-height: 110%;
+    margin-bottom: 25px;
+}
+
+h2 {
+    font-size: 24px;
+    line-height: 120%;
+}
+
+h3 {
+    font-size: 20px;
+    line-height: 120%;
+}
+
+hr {
+    border-top: 1px solid #ccc;
+}
+
+
+.page-banner {
+    background-color: #fff;
+	font-family: 400 16px/100% 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	border-bottom: 1px solid #ccc;
+}
+
+.page-banner .navbar-brand {
+    padding: 0;
+}
+
+.page-banner .navbar-brand img  {
+    width: 24px;
+}
+
+.page-banner .navbar-default {
+    background-color: transparent;
+    border: 0;
+}
+
+.page-banner .navbar-default .navbar-collapse {
+    background-color: transparent;
+    border: 0;
+}
+
+.page-banner .navbar-default .navbar-nav {
+    margin-top: 0
+}
+
+.page-banner div.header-title {
+    display: inline-block;
+    line-height: 40px;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 0;
+}
+
+main {
+    background-color: #fff;
+    margin: 0;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+main .example-title {
+	font: 700 26px/120% 'Montserrat', sans-serif;
+	text-align: center;
+    display: block;
+    margin: 20px 0;
+}
