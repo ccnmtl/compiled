@@ -1,11 +1,12 @@
 ---
 title: "How to make an analog clock (Part 1)"
-date: "2018-10-02"
+date: "2018-12-02"
 type: "post"
 author_name:  "Nik Nyby"
 author_url: "https://ctl.columbia.edu/about/team/nyby/"
 lede: "This post goes over how to simulate the motion of an analog clock programmatically."
-poster: "poster-how-to-make-an-analog-clock-part-1.png"
+poster: "poster-how-to-make-an-analog-clock-1.jpg"
+socmediaimg: "socmediaimg-how-to-make-an-analog-clock-1.jpg"
 poster_sourceurl: ""
 poster_source: ""
 topics: 
