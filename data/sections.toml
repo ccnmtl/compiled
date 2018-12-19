@@ -1,7 +1,31 @@
+[accessibility]
+    title="Accessibility"
+    description="Lorem ipsum Accessibility."
+
 [events]
     title="Events"
-    description="Lorem ipsum events."
+    description="We attend conferences, meetings, meetups, workshops, summits, talks, and hackathons. Sometimes we even present at these events. And here, we share our reactions, impressions, ideas, what we've learned, and follow-ups."
+
+[process]
+    title="Process"
+    description="Lorem ipsum process."
+
+[projects]
+    title="Projects"
+    description="Lorem ipsum projects."
 
 [research-and-development]
-    title="Research & Development"
+    title="Research and Development"
     description="Lorem ipsum R and D."
+
+[reviews]
+    title="Reviews"
+    description="Lorem ipsum reviews."
+
+[sysadmin]
+    title="Sysadmin"
+    description="Lorem ipsum sysadmin."
+
+[user-experience]
+    title="User Experience"
+    description="Lorem ipsum UI."
