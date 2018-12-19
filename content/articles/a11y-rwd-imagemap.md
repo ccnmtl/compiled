@@ -53,15 +53,15 @@ meet the [Web Content Accessibility Guidelines](https://www.w3.org/WAI/)
 (WCAG). We also wanted the modules to be compatible with all devices, including
 print, especially because they are open to public.
 
-I quickly learned that to this, we couldn’t simply _migrate_ the content over
+I quickly learned that we couldn’t simply _migrate_ the content over
 for responsive web design and accessibility. The content itself (text, images,
-table, quizzes, and interactives) _needed some revision_.  We needed to make
+table, quizzes, and interactives) _needed to be reworked_.  We needed to make
 sure user experience on each device (computer, tablet, smartphone, assistive
 technologies, and print) is comparable without compromising the quality of the
 content. 
 
 In this post, I’d like to share with you the process that I went through with
-one particular content—an imagemap—in one of the module.
+one particular piece of content—an imagemap—in one of the module.
 
 {{< figure src="/img/assets/old-phtc.jpg" class="text-center centered bordered responsive" alt="" caption="Image map in the old PHTC module" link="/examples/phtc-imagemap/" >}}
 
@@ -74,7 +74,7 @@ right. This interaction is not suitable for touchscreen devices.
 The whole interactive was basically image-swapping driven by JavaScript. It was
 neither responsive, nor accessible, nor printable. We needed to fix this.
 
-To optimized this interactive infographic for responsive design and
+To optimize this interactive infographic for responsive design and
 accessibility, I took the following steps: 
 
 1. Be aware of the intended meaning, and how learners learn from this diagram,
@@ -83,7 +83,7 @@ accessibility, I took the following steps:
 delivered differently, and what flexibility could be afforded here,
 4. Look at the available framework to form a solution,
 5. Repackage the reorganized content,
-6. Test the technology, and validated the cognitive process.
+6. Test the technology, and validate the cognitive process.
 
 ## 1. Be aware of the meaning and learning process: Metacognition
 
@@ -109,7 +109,7 @@ I knew the following about the diagram:
 
 * The association between one hotspot and the text was one-to-one,
 * The hotspots represented steps, the first being the top item, the sequence
-was clockwise.
+was clockwise,
 * User could hover the hotspots in order. Or not. There were no “gated”
 restrictions in place.
 
@@ -150,7 +150,7 @@ This is the __[redesign of the infographic](/examples/phtc-imagemap-redo/)__,
 and it looks just like the old one, but with marked improvements:
 
 * It can be read by screen readers,
-* The hotspots and associated explanation are now text
+* The hotspots and associated explanation are now text,
 * Users can navigate through the interactive using the tab key, in proper
 order,
 * The infographic is now responsive, the layout changes accordingly on smaller
@@ -175,7 +175,8 @@ on smartphones?
 With the content expert, we looked at the redesigned infographic on
 smartphones, tablets, and desktop computers to make sure that the content was
 delivered as intended by the pedagogy. We ran the page through Apple’s screen
-reader, VoiceOver, to hear if the “reading” was comparable.
+reader, [VoiceOver](https://www.apple.com/accessibility/mac/vision/),
+to hear if the “reading” was comparable.
 
 We confirmed that the intended meaning of the infographic was preserved on all
 devices in the new version.
@@ -192,6 +193,8 @@ In fact, technology is only one piece that made the whole. The other
 influencing pieces are pedagogy, the cognitive process, the user-end choices
 and control, and the awareness of the comparable experiences of differing
 abilities.
+
+{{< figure src="/img/assets/a11y-pieces.png" class="text-center centered responsive" alt="" >}}
 
 The awareness of the learning process informs us how we should code to ensure
 that the intended pedagogy can be processed by everyone, with differing
