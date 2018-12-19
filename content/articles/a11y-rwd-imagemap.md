@@ -1,5 +1,5 @@
 ---
-title: "Disentangling and Imagemap for Accessibility"
+title: "Disentangling an Imagemap for Accessibility"
 date: "2018-12-19"
 type: "post"
 author_name: "Zarina Mustapha"
