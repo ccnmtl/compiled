@@ -157,8 +157,8 @@ challenge. I'll go over that in a separate post because there's a lot
 more to it, and required a lot more learning on my part.
 
 In the mean time, you can see the final result of this clock in the
-[Motions of the Sun Simulator](https://ccnmtl.github.io/astro-interactives/sun-motion-simulator/), and the source code is here:
-[Clock.jsx](https://github.com/ccnmtl/astro-interactives/blob/master/sun-motion-simulator/src/Clock.jsx). Again, there's a lot of idiosyncratic code involved to make
+[Motions of the Sun Simulator](https://ccnmtl.github.io/astro-simulations/sun-motion-simulator/), and the source code is here:
+[Clock.jsx](https://github.com/ccnmtl/astro-simulations/blob/master/sun-motion-simulator/src/Clock.jsx). Again, there's a lot of idiosyncratic code involved to make
 all the fine-tunings correct. But I hope this is helpful for anyone
 else making a graphical analog clock, or just as a re-usable React
 component.
