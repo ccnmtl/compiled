@@ -4,8 +4,11 @@ date: "2018-09-28"
 type: "post"
 author_name:  "Susan Dreher"
 author_url: "https://ctl.columbia.edu/about/team/dreher/"
-lede: "."
-poster: "poster-ghconnect.png
+lede: "The Grace Hopper Celebration is a yearly event to highlight the
+contributions of women to computing. In lieu of jumping on a plane to Houston
+this year, I instead attended the first Grace Hopper Connect @ Google event
+in NYC"
+poster: "poster-ghconnect.png"
 poster_sourceurl: ""
 poster_source: ""
 topics:
@@ -17,7 +20,7 @@ The Grace Hopper Celebration is a yearly event to highlight the contributions
 of women to computing. [Grace Hopper](https://president.yale.edu/biography-grace-murray-hopper)
 was an American computer scientist, mathematician and naval officer.
 Among her many achievements, she is recognized for her work in designing
-and implementing programming languages, and her desire to create an
+and implementing programming languages, and her drive to create an
 English-language compiler.
 
 In lieu of jumping on a plane to Houston this year, I instead
@@ -26,15 +29,16 @@ https://ghcconnectnyc.splashthat.com/).
 
 The day was a great opportunity to be inspired by technology leaders,
 meet developers in my community and take a moment to reflect on my own
-experiences as a women in technology.
-
-## Keynote Inspiration
+experiences as a woman in technology.
 
 Here are a few impressions, phrases and inspiration that resonated
 through the day as we watched the GHC keynote speakers, heard from local
 NYC women in technology and discussed our personal experiences.
 
-##### Ben Fried, VP & CIO, Google
+
+## Keynote Inspiration
+
+### Ben Fried, VP & CIO, Google
 Fried, a native New Yorker, opened the session with the recognition
 that NYC's diversity and richness is not reflected
 within Google's walls. His pledge to support future diversity efforts at
@@ -42,7 +46,7 @@ Google was welcome and felt sincere. Though, I still cringe over the
 ["Manifesto"](https://gizmodo.com/exclusive-heres-the-full-10-page-anti-diversity-screed-1797564320),
 and note Google's [dismal diversity stats](https://www.wired.com/story/googles-employee-diversity-numbers-havent-really-improved/).
 
-##### Padmasree Warrior, CEO & Chief Development Officer, NIO U.S.
+### Padmasree Warrior, CEO & Chief Development Officer, NIO U.S.
 [Bio](https://ghc.anitab.org/2018-speakers-honorees/2018-speakers/padmasree-warrior/) | [Video](https://youtu.be/o7QO0VRTDUE?t=1050)
 
 Ms. Warrior reflected on her own career and offered tips on career mobility.
@@ -51,7 +55,7 @@ self-doubt that often plagues women in the sciences:
 
 "Open doors & go through them. Don't wait for the perfect door."
 
-##### Dr. Rebecca Parsons, CTO Thoughtworks
+### Dr. Rebecca Parsons, CTO Thoughtworks
 [Bio](https://anitab.org/profiles/abie-award-winners/technical-leadership/rebecca-parsons/) | [Video](https://youtu.be/o7QO0VRTDUE?t=2527)
 
 Dr. Parsons is the winner of this year's "Technical Leadership Abie Award",
@@ -61,7 +65,7 @@ speech, she spoke about finding yourself.
 "What are the words that define you, who you really aspire to be.
 Find those words, then live them and share them."
 
-##### Jennifer O. Matthews, Uncharted Power
+### Jennifer O. Matthews, Uncharted Power
 [Bio](https://ghc.anitab.org/2018-speakers-honorees/2018-speakers/jessica-o-matthews/) | [Video](https://youtu.be/o7QO0VRTDUE?t=3491)
 Ms. Matthews is the Founder & CEO of Uncharted Power, an award-winning
 renewable power company right here in NYC. The company was founded by Jessica
