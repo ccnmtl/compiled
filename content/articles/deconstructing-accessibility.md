@@ -7,7 +7,7 @@ poster: poster-deconstructing-accessibility.jpg
 tags: ["accessibility", "a11y"]
 title: "Deconstructing for Accessibility"
 topics:
-- User Experience
+- Accessibility
 type: post
 ---
 
