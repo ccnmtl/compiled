@@ -7,7 +7,7 @@ author_url: "/authors/"
 lede: "2018 has been a year of exploration and experimentation in software
 development for the CTL Development team. We shared our professional and
 personal experiences developing educational technology, and lessons learned
-here on CompilED. This is a list of the posts we wrote in last year."
+here on CompilED. This is a list of the posts we wrote last year."
 poster: "poster-wrap-up-2018.jpg"
 socmediaimg: "socmediaimg-wrap-up-2018.jpg"
 poster_sourceurl: "https://www.youtube.com/watch?v=pDVGx4WcxK0"
@@ -20,7 +20,7 @@ tags: [wrap-up]
 2018 has been a year of exploration and experimentation in software
 development for the CTL Development team. We shared our professional and
 personal experiences developing educational technology, and lessons learned
-here on CompilED. The following is a list of the posts we wrote in last year.
+here on CompilED. The following is a list of the posts we wrote last year.
 
 &nbsp;
 
