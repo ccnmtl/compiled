@@ -7,7 +7,7 @@ author_url: "https://ctl.columbia.edu/about/team/dreher/"
 lede: "The Grace Hopper Celebration is a yearly event to highlight the
 contributions of women to computing. In lieu of jumping on a plane to Houston
 this year, I instead attended the first Grace Hopper Connect @ Google event
-in NYC"
+in NYC."
 poster: "poster-ghconnect.png"
 socmediaimg: "socmediaimg-ghconnect.png"
 poster_sourceurl: ""
