@@ -24,7 +24,7 @@ here on CompilED. The following is a list of the posts we wrote last year.
 
 &nbsp;
 
-__[Disentangling and Imagemap for Accessibility](/articles/a11y-rwd-imagemap/)__  
+__[Disentangling an Imagemap for Accessibility](/articles/a11y-rwd-imagemap/)__  
 _By Zarina Mustapha | December 19, 2018_  
 Application design for accessibility and inclusion is not simply a technical implementation appended to a development process. The awareness of the learning process informs us how we should code to ensure that the intended pedagogy can be processed by everyone, with differing abilities, through all devices.
 
