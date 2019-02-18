@@ -1,4 +1,4 @@
-/* global lunr: true, console: true */
+/* global lunr: true */
 
 var initializeLunrIndex = function(items) {
     return lunr(function() {
