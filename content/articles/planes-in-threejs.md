@@ -46,15 +46,31 @@ perpendicular from a surface. Here’s an image from Wikipedia showing a
 surface with two normal vectors (a [vector](https://threejs.org/docs/index.html#api/en/math/Vector3) consists of three
 parameters: x, y, and z):
 
-{{<figure caption="A plane and two of its normal vectors" src="/img/assets/planes-in-threejs/Normal_vectors2.svg" class="text-center centered bordered responsive" alt="A plane and two of its normal vectors">}}
+{{<figure
+    attr="Wikimedia Commons"
+    attrlink="https://commons.wikimedia.org/wiki/File:Normal_vectors2.svg"
+    caption="A plane and two of its normal vectors"
+    src="/img/assets/planes-in-threejs/Normal_vectors2.svg"
+    class="text-center centered bordered responsive" alt="A plane and two of its normal vectors">}}
 
 And here’s an illustration of surface normals for a curved surface:
 
-{{<figure caption="Normal vectors for a curved surface" src="/img/assets/planes-in-threejs/Surface_normals.svg" class="text-center centered bordered responsive" alt="Normal vectors for a curved surface">}}
+{{<figure
+    attr="Wikimedia Commons"
+    attrlink="https://commons.wikimedia.org/wiki/File:Surface_normals.svg"
+    caption="Normal vectors for a curved surface."
+    src="/img/assets/planes-in-threejs/Surface_normals.svg"
+    class="text-center centered bordered responsive" alt="Normal vectors for a curved surface">}}
 
 You can imagine a flat plane for each of those normals, like this:
 
-{{<figure caption="A normal to a curved surface at a point, with that point's tangent plane visible as well." src="/img/assets/planes-in-threejs/Surface_normal_illustration.svg" class="text-center centered bordered responsive" alt="A normal to a surface at a point, with that point's tangent plane visible as well.">}}
+{{<figure
+    attr="Wikimedia Commons"
+    attrlink="https://commons.wikimedia.org/wiki/File:Surface_normal_illustration.svg"
+    caption="A normal to a curved surface at a point, with that point's tangent plane visible as well."
+    src="/img/assets/planes-in-threejs/Surface_normal_illustration.svg"
+    class="text-center centered bordered responsive"
+    alt="A normal to a surface at a point, with that point's tangent plane visible as well.">}}
 
 This is the way that three.js’s Plane is put together, clearly visible in its constructor:
 
