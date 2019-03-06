@@ -6,10 +6,7 @@ author_name:  "Nik Nyby"
 author_url: "https://ctl.columbia.edu/about/team/nyby/"
 lede: "This is an overview for 3D graphics beginners just learning to work with
 Planes, quaternions, and rotations."
-poster: "filename"
 socmediaimg: "socmediaimg-planes-in-threejs.png"
-poster_sourceurl: ""
-poster_source: ""
 topics: 
 - Research and Development
 tags: ["three.js", "graphics"]
